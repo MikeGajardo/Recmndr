@@ -5,3 +5,5 @@ export const Tiers = () => {
     <div>Tiers</div>
   )
 }
+
+export default Tiers;
