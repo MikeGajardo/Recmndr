@@ -2,12 +2,10 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
-import { Home } from "./views/home";
-import { Demo } from "./views/demo";
-import { Single } from "./views/single";
 import Homepage from "./views/Homepage";
 import Question from "./views/Question";
 import Result from "./views/Result";
+import Tiers from "./views/Tiers";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
