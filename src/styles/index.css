@@ -1,3 +1,77 @@
-/* 
-    General Styles
-*/
+img {
+    opacity: 0.75;
+    width: 135px;
+  }
+  
+  .bass {
+    max-height: 50px;
+    width: auto;
+    align-self: center;
+    margin-bottom: 14px;
+    opacity: 0.75;
+  }
+  
+  .records {
+    width: 650px;
+    opacity: .9;
+  }
+  
+  a {
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+  }
+  .navbar {
+    width: 80% !important;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    padding: 9px;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+    background-color: white;
+    border-bottom: 1px solid #e2dcd1;
+    padding-top: 22px;
+    padding-bottom: 20px;
+  }
+  
+  #loginbutton {
+    font-family: "Kanit", sans-serif;
+    font-size: 32px;
+    opacity: 0.75;
+    margin: auto;
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .tiktok {
+    width: 400px;
+  }
+  
+  .socials {
+    width: 25px;
+    filter: grayscale(100%);
+    opacity: .85;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .footer {
+    border-top: 1px solid #e2dcd1;
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Kanit", sans-serif;
+    font-size: 24px;
+    height: 50px;
+  }
+  
+  .main {
+    font-family: 'Poiret One', cursive;
+  }
