@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "/Users/alex/Documents/Code/Recmndr/Recmndr/src/styles/homepage.css"
+import "/workspace/Recmndr/src/styles/homepage.css"
 
 import mndrwide from "../../img/mndrwide.jpg";
 import basslogo from "../../img/basslogo.png";

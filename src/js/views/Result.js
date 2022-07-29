@@ -1,6 +1,6 @@
 import React from "react";
 // import "src/styles/profiles.css";
-import "/Users/alex/Documents/Code/Recmndr/Recmndr/src/styles/profiles.css";
+import "/workspace/Recmndr/src/styles/profiles.css";
 
 import mellow from "../../img/profilepage/mellow.png";
 import unpretentious from "../../img/profilepage/unpretentious.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/alex/Documents/Code/Recmndr/Recmndr/src/styles/homepage.css";
+import "/workspace/Recmndr/src/styles/homepage.css";
 
 //include images into your bundle
 import records from "../../img/records.jpg";
