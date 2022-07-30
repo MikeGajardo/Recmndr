@@ -156,7 +156,7 @@ export const Result = () => {
             aria-labelledby="v-pills-sophisticated-tab"
           >
             {/* Code here */}
-            <div className="container-fluid">
+            <div className="container-fluid" id="sophiscol">
               <div className="d-flex justify-content-center"><img src={ensemble1} className="imgcover" /></div>
               <div className="d-flex justify-content-center">you are most likely:<span className="fontgenre">SOPHISTICATED</span></div>
               <div className="d-flex justify-content-center"><img src={ensemble2} className="imgcover" /></div>
@@ -194,7 +194,7 @@ export const Result = () => {
             aria-labelledby="v-pills-contemporary-tab"
           >
             {/* Code here */}
-            <div className="container-fluid">
+            <div className="container-fluid" id="sophiscol">
               <div className="d-flex justify-content-center"><img src={deejay1} className="imgcover" /></div>
               <div className="d-flex justify-content-center">you are most likely:<span className="fontgenre">CONTEMPORARY</span></div>
               <div className="d-flex justify-content-center"><img src={deejay2} className="imgcover" /></div>

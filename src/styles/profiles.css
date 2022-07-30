@@ -49,13 +49,21 @@
 }
 
 .mellowcolor {
-  color: #f7d4be;
+  color: #e7b1a3;
 }
 
 #unpretcol {
-  color: #3abcd4;
+  color: #3abdd4c6;
+  opacity: .8;
+  
 }
 
 .intnscol {
-  color: #ff3f0e;
+  color: #f9301e;
+  opacity: .9;
+
+}
+
+#sophiscol {
+  color: #0a232c;
 }
