@@ -1,5 +1,5 @@
 .pmain {
-  margin-top: 20px;
+  margin-top: 5px;
   font-size: 38px;
 }
 
@@ -7,8 +7,11 @@
   text-align: left;
   color: rgba(0, 0, 0, 0.497);
   padding: 10px;
-  height: 160px;
-  font-family: "Sacramento", cursive;
+  height: 164px;
+  font-family: 'Karla', sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  width: 320px;
 }
 
 .tab-content {
@@ -16,23 +19,25 @@
 }
 
 .tab-pane {
-  width: 1500px;
-  max-width: 1500px;
+  width: 1350px;
+  max-width: 1400px;
 }
 
 .instruments {
-  width: 50px;
+  width: 55px;
   opacity: 0.7;
 }
 
 #lettercolor {
-  color: rgba(255, 0, 0, 0.35);
-  font-size: 38px;
+  color: rgba(255, 0, 0, 0.696);
+  font-size: 34px;
+  font-weight:300;
+  margin-left: 5px;
 }
 
 .imgcover {
   width: 100%;
-  opacity: 0.65;
+  opacity: 0.9;
   border-radius: 5px;
 }
 

@@ -7,26 +7,21 @@ import unpretentious from "../../img/profilepage/unpretentious.png";
 import sophisticated from "../../img/profilepage/sophisticated.png";
 import intense from "../../img/profilepage/intense.png";
 import contemporary from "../../img/profilepage/contemporary.png";
-import stevie1 from "../../img/profilepage/stevie1.jpg";
-import stevie2 from "../../img/profilepage/stevie2.jpg";
-import stevie3 from "../../img/profilepage/stevie3.jpg";
-import stevie4 from "../../img/profilepage/stevie4.jpg";
 import woodstock1 from "../../img/profilepage/woodstock1.jpg";
 import woodstock2 from "../../img/profilepage/woodstock2.jpg";
 import woodstock3 from "../../img/profilepage/woodstock3.jpg";
-import woodstock4 from "../../img/profilepage/woodstock4.jpg";
-import ensemble1 from "../../img/profilepage/ensemble1.jpg";
-import ensemble2 from "../../img/profilepage/ensemble2.jpg";
-import ensemble3 from "../../img/profilepage/ensemble3.jpg";
-import ensemble4 from "../../img/profilepage/ensemble4.jpg";
-import santana1 from "../../img/profilepage/santana1.jpg";
-import santana2 from "../../img/profilepage/santana2.jpg";
-import santana3 from "../../img/profilepage/santana3.jpg";
-import santana4 from "../../img/profilepage/santana4.jpg";
 import deejay1 from "../../img/profilepage/deejay1.jpg";
 import deejay2 from "../../img/profilepage/deejay2.jpg";
 import deejay3 from "../../img/profilepage/deejay3.jpg";
-import deejay4 from "../../img/profilepage/deejay4.jpg";
+import otis1 from "../../img/profilepage/otis1.jpg";
+import otis2 from "../../img/profilepage/otis2.jpg";
+import otis3 from "../../img/profilepage/otis3.jpg";
+import miles1 from "../../img/profilepage/miles1.jpg";
+import miles2 from "../../img/profilepage/miles2.jpg";
+import miles3 from "../../img/profilepage/miles3.jpg";
+import intense1 from "../../img/profilepage/intense1.jpg";
+import intense2 from "../../img/profilepage/intense2.jpg";
+import intense3 from "../../img/profilepage/intense3.jpg";
 
 export const Result = () => {
   return (
@@ -116,14 +111,11 @@ export const Result = () => {
           >
             {/* Code here */}
             <div className="container-fluid mellowcolor">
-              <div className="d-flex justify-content-center"><img src={stevie1} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">you are most likely: <span className="fontgenre">MELLOW</span></div>
-              <div className="d-flex justify-content-center"><img src={stevie2} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">moods: romantic  relaxing  sensual  sad</div>
-              <div className="d-flex justify-content-center"><img src={stevie3} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">musical apetite: soft rock  R&B  adult contemporary</div>
-              <div className="d-flex justify-content-center"><img src={stevie4} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
+              <div className="d-flex justify-content-center"><img src={otis1} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
+              <div className="d-flex justify-content-center"><img src={otis2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
+              <div className="d-flex justify-content-center"><img src={otis3} className="imgcover" /></div>
             </div>
             {/* Mellow End */}
           </div>
@@ -138,13 +130,10 @@ export const Result = () => {
             {/* Code here */}
             <div className="container-fluid" id="unpretcol">
               <div className="d-flex justify-content-center"><img src={woodstock1} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">you are most likely:<span className="fontgenre">UNPRETENTIOUS</span></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
               <div className="d-flex justify-content-center"><img src={woodstock2} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
               <div className="d-flex justify-content-center"><img src={woodstock3} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
-              <div className="d-flex justify-content-center"><img src={woodstock4} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
             </div>
             {/* Unpretentious End */}
           </div>
@@ -157,14 +146,13 @@ export const Result = () => {
           >
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
-              <div className="d-flex justify-content-center"><img src={ensemble1} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">you are most likely:<span className="fontgenre">SOPHISTICATED</span></div>
-              <div className="d-flex justify-content-center"><img src={ensemble2} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
-              <div className="d-flex justify-content-center"><img src={ensemble3} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
-              <div className="d-flex justify-content-center"><img src={ensemble4} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
+            <div className="container-fluid mellowcolor">
+              <div className="d-flex justify-content-center"><img src={miles1} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
+              <div className="d-flex justify-content-center"><img src={miles2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
+              <div className="d-flex justify-content-center"><img src={miles3} className="imgcover" /></div>
+            </div>
             </div>
           </div>
           {/* Intense Page */}
@@ -176,14 +164,11 @@ export const Result = () => {
           >
             {/* Code here */}
             <div className="container-fluid intnscol">
-              <div className="d-flex justify-content-center"><img src={santana1} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">you are most likely:<span className="fontgenre">INTENSE</span></div>
-              <div className="d-flex justify-content-center"><img src={santana2} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
-              <div className="d-flex justify-content-center"><img src={santana3} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
-              <div className="d-flex justify-content-center"><img src={santana4} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
+            <div className="d-flex justify-content-center"><img src={intense1} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
+              <div className="d-flex justify-content-center"><img src={intense2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
+              <div className="d-flex justify-content-center"><img src={intense3} className="imgcover" /></div>
             </div>
           </div>
           {/* Contemporary Page */}
@@ -195,14 +180,11 @@ export const Result = () => {
           >
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
-              <div className="d-flex justify-content-center"><img src={deejay1} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">you are most likely:<span className="fontgenre">CONTEMPORARY</span></div>
+            <div className="d-flex justify-content-center"><img src={deejay1} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
               <div className="d-flex justify-content-center"><img src={deejay2} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
+              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
               <div className="d-flex justify-content-center"><img src={deejay3} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
-              <div className="d-flex justify-content-center"><img src={deejay4} className="imgcover" /></div>
-              <div className="d-flex justify-content-center">[Description]</div>
             </div>
           </div>
         </div>
