@@ -1,9 +1,6 @@
 import React from "react";
 
-
-// use style below to work on the cloud
-// import "src/styles/quiz.css"
-import "/Users/alex/Documents/Code/Recmndr/Recmndr/src/styles/quiz.css";
+import "../../styles/quiz.css";
 
 // images
 import rnb from "../../img/quizpage/rnb.jpg";

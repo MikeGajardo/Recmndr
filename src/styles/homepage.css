@@ -63,11 +63,15 @@
   .socials {
     width: 25px;
     filter: grayscale(100%);
-    opacity: .85;
+    opacity: .80;
     font-size: 24px;
     margin-top: 10px;
     text-align: center;
     margin-left: 5px;
+  }
+
+  .socials:hover{
+    opacity: .9;
   }
   
   .footer {
