@@ -19,8 +19,8 @@ export const Question = () => {
         </div>
         <div className="col qpage qp qmain">
           <div className="container text-center">
-            <div className="question"><h1>Ready to Begin?</h1></div>
-            <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q1" className="btn btn-light answerbtn" id="answerbtn" role="button">Start</a></div>
+            <div className="question"><h1 className="startquest">Ready to Begin?</h1></div>
+            <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q1" className="btn btn-light ansbtnstart" id="ansbtnstart" role="button"><p className="startxt" id="startxt">Start</p></a></div>
           </div>
         </div>
       </div>

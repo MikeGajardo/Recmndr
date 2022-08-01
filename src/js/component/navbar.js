@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "/Users/alex/Documents/Code/Recmndr/Recmndr/src/styles/homepage.css"
+import "/Users/alex/Documents/Code/Recmndr/Recmndr/src/styles/homepage.css";
 
 import mndrwide from "../../img/mndrwide.jpg";
 import basslogo from "../../img/basslogo.png";
@@ -46,12 +46,12 @@ export const Navbar = () => {
                   aria-labelledby="btnGroupDrop1"
                 >
                   <li>
-                      <a class="dropdown-item" href="/my-profile">
-                      Profile
+                    <a class="dropdown-item" href="/create-your-profile/">
+                      Quiz
                     </a>
                     <li>
-                      <a class="dropdown-item" href="/create-your-profile/">
-                        Quiz
+                      <a class="dropdown-item" href="/my-profile">
+                        Profile
                       </a>
                     </li>
                     <li>

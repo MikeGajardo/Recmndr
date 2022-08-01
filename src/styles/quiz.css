@@ -1,5 +1,6 @@
 .qmain {
   height: auto;
+  opacity: .8;
 }
 
 .qimg {
@@ -13,31 +14,21 @@
   font-family: "Karla", sans-serif;
 }
 
-.qp,
-.qp1,
-.qp2 {
-  opacity: 0.85;
-}
-
-.qp {
-  background-color: #e63946;
-}
-
-.qp1 {
-  background-color: #a8dadc;
-}
-
-.qp2 {
-  background-color: #ed6a5a;
-}
-
 .question {
-  margin-top: 75px;
+  margin-top: 15px;
   color: white;
+  font-size: 32px;
+  width: 400px;
+  margin-left: 5px;
+  line-height: 15px;
+}
+
+.startquest {
+  margin-top: 200px;
 }
 
 .answer {
-  margin-top: 100px;
+  margin-top: 70px;
   width: auto;
   border-radius: 10px;
   margin-right: 4px;
@@ -47,6 +38,24 @@
   margin-top: 15px;
   border-radius: 20px;
   margin-right: 4px;
+}
+
+.ansbtnstart {
+  display: inline-flex;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+#startxt {
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 .answerbtn {
@@ -59,7 +68,88 @@
   font-size: 20px;
 }
 
-.answerbtn:hover {
+.qp {
+  background-color: #e63946;
+}
+.qp1 {
+  background-color: #0080CE;
+}
+.qp2 {
+  background-color: #008682;
+}
+.qp3 {
+  background-color: #FD8C6F;
+}
+.qp4 {
+  background-color: #6273C9;
+}
+.qp5 {
+  background-color:#C25E84;
+}
+.qp6 {
+  background-color:#0086B4;
+}
+.qp7 {
+  background-color:#FFD262;
+}
+.qp8 {
+  background-color: #D8BFD8;
+}
+.qp9 {
+  background-color: #564148;
+}
+.qten {
+  background-color: #6273C9;
+}
+
+.qp .ansbtnstart:hover {
   background-color: #E63946;
+  color: white;
+}
+.qp1 .answerbtn:hover {
+  background-color:#0080CE;
+  color: white;
+}
+.qp2 .answerbtn:hover {
+  background-color: #008682;
+  color: white;
+}
+.qp3 .answerbtn:hover {
+  background-color: #FD8C6F;
+  color: white;
+}
+.qp4 .answerbtn:hover {
+  background-color:#6273C9;
+  color: white;
+}
+.qp5 .answerbtn:hover {
+  background-color: #C25E84;
+  color: white;
+}
+.qp6 .answerbtn:hover {
+  background-color: #0086B4;
+  color: white;
+}
+.qp7 .answerbtn:hover {
+  background-color:#FFD262;
+  color: white;
+}
+.qp8 .answerbtn:hover {
+  background-color:#D8BFD8;
+  color: white;
+}
+.qp9 .answerbtn:hover {
+  background-color: #564148;
+  color: white;
+}
+.qten .answerbtn:hover {
+  background-color: #6273C9;
+  color: white;
+}
+
+.pagecount {
+  margin-top: 135px;
+  font-weight: 300;
+  font-size: 18px;
   color: white;
 }
