@@ -17,7 +17,7 @@ export const Navbar = () => {
       <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="/#">
-            <img src={mndrwide} />
+            <img id="logo" className="logo" src={mndrwide} />
           </a>
           <div class="d-flex">
             <div class="btn-group" role="group">
@@ -46,9 +46,14 @@ export const Navbar = () => {
                   aria-labelledby="btnGroupDrop1"
                 >
                   <li>
-                    <a class="dropdown-item" href="/my-profile#">
-                      Music Profile
+                      <a class="dropdown-item" href="/my-profile">
+                      Profile
                     </a>
+                    <li>
+                      <a class="dropdown-item" href="/create-your-profile/">
+                        Quiz
+                      </a>
+                    </li>
                     <li>
                       <a class="dropdown-item" href="#">
                         About Us

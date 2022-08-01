@@ -7,6 +7,8 @@ import Question from "./views/Question";
 import Result from "./views/Result";
 import Tiers from "./views/Tiers";
 import injectContext from "./store/appContext";
+import Question1 from "./views/Question1";
+import Question2 from "./views/Question2";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -28,6 +30,12 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/create-your-profile">
 							<Question />
+						</Route>
+						<Route exact path="/create-your-profile/q1">
+							<Question1 />
+						</Route>
+						<Route exact path="/create-your-profile/q2">
+							<Question2 />
 						</Route>
 						<Route exact path="/my-profile">
 							<Result />

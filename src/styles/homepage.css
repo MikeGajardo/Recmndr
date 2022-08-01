@@ -1,6 +1,10 @@
-img {
+.logo {
     opacity: 0.75;
     width: 135px;
+  }
+
+  .logo:hover{
+    opacity: .90;
   }
   
   .bass {
@@ -9,6 +13,10 @@ img {
     align-self: center;
     margin-bottom: 14px;
     opacity: 0.75;
+  }
+
+  .bass:hover {
+    opacity: .85;
   }
   
   .records {
