@@ -2,6 +2,7 @@ import React from "react";
 
 import "../../styles/profiles.css";
 
+
 import mellow from "../../img/profilepage/mellow.png";
 import unpretentious from "../../img/profilepage/unpretentious.png";
 import sophisticated from "../../img/profilepage/sophisticated.png";

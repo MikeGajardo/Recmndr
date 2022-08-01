@@ -1,5 +1,7 @@
 import React from "react";
+
 import "../../styles/homepage.css";
+
 
 //include images into your bundle
 import records from "../../img/records.jpg";
