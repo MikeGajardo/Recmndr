@@ -30,7 +30,7 @@ export const Navbar = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModalToggle"
               >
-                login
+             
               </button>
               <div class="btn-group" role="group">
                 <button
@@ -70,7 +70,9 @@ export const Navbar = () => {
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">
-                        Sign Up
+                        <Link to="/Signin" className="underline">
+                          Sing in
+                        </Link>
                       </a>
                     </li>
                   </li>
