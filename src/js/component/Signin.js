@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { UserAuth } from "../../Context/AuthContext";
 import { Card, Alert, Form, Button } from "react-bootstrap";
+
 
 export const Signin = () => {
   const [email, setEmail] = useState("");
@@ -9,6 +10,7 @@ export const Signin = () => {
   const [error, setError] = useState("");
   const { signIn } = UserAuth();
   const history = useHistory();
+ 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -20,6 +22,16 @@ export const Signin = () => {
       setError(e.message);
       console.log(e.message);
     }
+
+//     const dbRef = ref(getDatabase());
+// get(child(dbRef, `usuarios/{id}`)).then((snapshot) => {
+//   if (snapshot.exists()) {
+//     console.log(snapshot.val());
+//   } else {
+//   }
+// }).catch((error) => {
+//   console.error(error);
+// });
   };
 
   return (

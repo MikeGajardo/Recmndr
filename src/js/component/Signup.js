@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { UserAuth } from "../../Context/AuthContext";
-import { Card, Alert, Form, Button  } from "react-bootstrap";
+import { Card, Alert, Form, Button } from "react-bootstrap";
+import { getDatabase, ref, get, child } from "firebase/database";
+import { db } from "../../fireBase";
 
 export const Singup = () => {
   const [email, setEmail] = useState("");
@@ -17,9 +19,29 @@ export const Singup = () => {
       await createUser(email, password);
       history.push("/Signin");
     } catch (error) {
-      setError(errore.message);
+      setError(error.message);
       console.log(error.message);
     }
+    
+    // const userData = (email, password) => {
+    //   const dbRef = userRef.push()
+    //   dbRef.set({
+    //     email: email,
+    //     password: password
+    //   })
+    // }
+    const dbRef = ref(getDatabase());
+    get(child(dbRef, "/"))
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          console.log(snapshot.val());
+        } else {
+          console.log("No data available");
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   };
 
   return (
@@ -34,7 +56,7 @@ export const Singup = () => {
               <p className="mt-5 mb-3 text-muted">
                 Don't have an account yet?{" "}
                 <Link to="/" className="underline">
-                  Sing up
+                  Sing in
                 </Link>
               </p>
             </div>

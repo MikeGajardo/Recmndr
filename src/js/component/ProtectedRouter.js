@@ -6,9 +6,9 @@ const ProtectedRoute = ({ children }) => {
   const { user } = UserAuth();
   if (!user) {
     return <Redirect push to="/Signin" />;
+  } else {
+    return children;
   }
-
-  return children;
 };
 
 export default ProtectedRoute;

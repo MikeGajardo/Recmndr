@@ -20,12 +20,14 @@ import Question8 from "./views/Question8";
 import Question9 from "./views/Question9";
 import Question10 from "./views/Question10";
 
-import { Navbar } from "./component/navbar";
+import { Navba } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { Singup } from "./component/Signup";
 import { Signin } from "./component/Signin";
 import { Dashboard } from "./component/Dashboard";
+import MusicFile from "./component/MusicFile"
 import ProtectedRoute from "./component/ProtectedRouter";
+import MusicAPI from "./component/MusicAPI";
 
 //create your first component
 const Layout = () => {
@@ -36,7 +38,7 @@ const Layout = () => {
   return (
     <BrowserRouter basename={basename}>
       <ScrollToTop>
-        <Navbar />
+        <Navba />
         <Container
           className="d-flex aligen-items-center justify-content-center"
           style={{ minHeight: "100vh" }}
@@ -52,6 +54,12 @@ const Layout = () => {
                 </Route>
                 <Route exact path="/Signin">
                   <Signin />
+                </Route>
+                <Route exact path="/MusicFile">
+                  <MusicFile />
+                </Route>
+                <Route exact path="/MusicAPI">
+                  <MusicAPI />
                 </Route>
                 <Route exact path="/Dashboard">
                   <ProtectedRoute>

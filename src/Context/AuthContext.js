@@ -5,9 +5,10 @@ import {
   signOut,
   onAuthStateChanged,
   GoogleAuthProvider,
-  signInWithPopup
+  signInWithPopup,
 } from "firebase/auth";
-import { auth } from "../fireBase";
+import { auth, db } from "../fireBase";
+import { collection, setDoc, doc } from "firebase/firestore";
 
 const UserContext = createContext();
 
@@ -16,7 +17,10 @@ export const AuthContexProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   const createUser = (email, password) => {
-    return createUserWithEmailAndPassword(auth, email, password);
+     createUserWithEmailAndPassword(auth, email, password);
+     setDoc(doc(db, "user", email), {
+      savedDoc: []
+     })
   };
   const signIn = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
@@ -26,13 +30,12 @@ export const AuthContexProvider = ({ children }) => {
     return signOut(auth);
   };
   const loginWhitGoogle = () => {
-    const googleProvaider = new GoogleAuthProvider()
-    return signInWithPopup(auth, googleProvaider)
-  }
+    const googleProvaider = new GoogleAuthProvider();
+    return signInWithPopup(auth, googleProvaider);
+  };
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      
       setUser(currentUser);
       setLoading(false);
     });
@@ -41,7 +44,9 @@ export const AuthContexProvider = ({ children }) => {
     };
   }, []);
   return (
-    <UserContext.Provider value={{ createUser, user, signIn, logout, loading, loginWhitGoogle}}>
+    <UserContext.Provider
+      value={{ createUser, user, signIn, logout, loading, loginWhitGoogle }}
+    >
       {children}
     </UserContext.Provider>
   );
