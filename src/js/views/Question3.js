@@ -15,7 +15,7 @@ export const Question3 = () => {
       </div>
       <div className="col qpage qp3 qmain">
         <div className="container text-center">
-        <div className="question"><p>&nbsp;</p><p>You're on vacations on a</p><p>location you've never been</p><p>before, what are you MOST</p><p>excited about?</p></div>
+        <div className="question"><p>&nbsp;</p><p>You're on vacations on a</p><p>location you've never been</p><p>before, what are you MOST</p><p>excited for?</p></div>
           <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn" role="button">Sight-seeing, taking pictures for the 'gram - "Pics or didn't happen"</a></div>
           <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn2" role="button">Learning about the History/Culture</a></div>
           <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn2" role="button">Fiding the Hot Spots: Checking out the Night-Life</a></div>

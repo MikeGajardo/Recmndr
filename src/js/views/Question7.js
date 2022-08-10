@@ -15,12 +15,12 @@ export const Question7 = () => {
       </div>
       <div className="col qpage qp7 qmain">
         <div className="container text-center">
-        <div className="question"><p>&nbsp;</p><p>&nbsp;</p><p>You're at the bar,</p><p>what are you ordering?</p><p>&nbsp;</p></div>
-          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="answerbtn" role="button">Answer 1</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 2</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 3</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 4</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 5</a></div>
+        <div className="question"><p>&nbsp;</p><p>You're at a party,</p><p>what's your first</p><p>inclination?</p><p>&nbsp;</p></div>
+          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="unpretentious-2" role="button">Decide how the “vibe” currently affects you to decide if you’ll stay for a while</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="intense-4" role="button">Head directly to the bar, you’ve arrived one hour late and need to play catch-up </a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="mellow-1" role="button">Look for the quiet spot, you are there for the conversation </a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="answerbtn2" role="button">Catch up with friends, it’s the 3rd time you’ve seen them this week</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q8" className="btn btn-light answerbtn" id="answerbtn2" role="button">Offer and share to make the cocktail you've been perfecting</a></div>
           <div className="d-flex justify-content-center pagecount" id="pagecount">7 / 10</div>
         </div>
       </div>

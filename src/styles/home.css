@@ -1,0 +1,79 @@
+.carousel {
+max-width: 70%;
+}
+
+.needle {
+width: 100%;
+opacity: .8;
+margin-bottom: 40px;
+}
+
+.saying {
+    width: 340px;
+    opacity: .9;
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-top: 7px;
+  /* margin-left: 195px; */
+}
+
+.saying:hover {
+    -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.saying2 {
+    width: 500px;
+    opacity: .9;
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* margin-left: 180px; */
+}
+
+.saying2:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.saying3 {
+    width: 290px;
+    opacity: .9;
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* margin-left: 120px; */
+}
+
+.saying3:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.saying4 {
+    width: 355px;
+    opacity: .9;
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* margin-left: 75px; */
+}
+
+.saying4:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.contentz {
+    align-items: center;
+    /* margin-left: 1px; */
+}
+
+.wax {
+  width: 100%;
+  margin-top: 100px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.wax:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
