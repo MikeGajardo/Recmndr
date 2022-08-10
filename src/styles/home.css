@@ -5,6 +5,7 @@ max-width: 70%;
 .needle {
 width: 100%;
 opacity: .8;
+margin-bottom: 40px;
 }
 
 .saying {
@@ -13,7 +14,7 @@ opacity: .8;
     -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   margin-top: 7px;
-  margin-left: 165px;
+  /* margin-left: 195px; */
 }
 
 .saying:hover {
@@ -26,7 +27,7 @@ opacity: .8;
     opacity: .9;
     -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  margin-left: 150px;
+  /* margin-left: 180px; */
 }
 
 .saying2:hover {
@@ -39,7 +40,7 @@ opacity: .8;
     opacity: .9;
     -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  margin-left: 90px;
+  /* margin-left: 120px; */
 }
 
 .saying3:hover {
@@ -52,7 +53,7 @@ opacity: .8;
     opacity: .9;
     -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  margin-left: 45px;
+  /* margin-left: 75px; */
 }
 
 .saying4:hover {
@@ -62,11 +63,17 @@ opacity: .8;
 
 .contentz {
     align-items: center;
-    width: 1400px;
-    margin-left: 1px;
+    /* margin-left: 1px; */
 }
 
-.gilscott {
-    background-color: black;
-    color: white;
+.wax {
+  width: 100%;
+  margin-top: 100px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.wax:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }

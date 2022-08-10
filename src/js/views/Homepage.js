@@ -13,6 +13,9 @@ import saying from "../../img/homepage/saying.png";
 import saying2 from "../../img/homepage/saying2.png";
 import saying3 from "../../img/homepage/saying3.png";
 import saying4 from "../../img/homepage/saying4.png";
+import wax from "../../img/homepage/wax.jpg";
+import waxquiz from "../../img/homepage/waxquiz.png";
+import test2 from "../../img/homepage/test2.png";
 
 //create your first component
 const Homepage = () => {
@@ -53,23 +56,21 @@ const Homepage = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div>
+      <div className="container-fluid d-flex mx-auto">
         <img src={needle} className="needle" id="needle" />
       </div>
-      <div className="container contentz" id="contentz">
-        <div className="row">
-        <div className="col-3"><img src={saying} className="saying" id="saying"/></div>
-        <div className="col-5"><img src={saying2} className="saying2" id="saying2"/></div>
-        <div className="col-3"><img src={saying3} className="saying3" id="saying3"/></div>
-        <div className="col-1"><img src={saying4} className="saying4" id="saying4"/></div>
-        </div>
+      <div className="container d-flex justify-content-center contentz" id="contentz">
+        <img src={saying} className="saying" id="saying" />
+        <img src={saying2} className="saying2" id="saying2" />
+        <img src={saying3} className="saying3" id="saying3" />
+        <img src={saying4} className="saying4" id="saying4" />
       </div>
-      <div className="container-fluid gilscott"> "The Revolution Will Not Be Televised" quote and image
-
+      <div className="container-fluid d-flex mx-auto">
+        <a href="/create-your-profile/">
+        <img src={test2} className="wax" id="wax" /></a>
       </div>
     </body>
   );
 };
-
 
 export default Homepage;

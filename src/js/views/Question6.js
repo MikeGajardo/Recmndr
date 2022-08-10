@@ -15,12 +15,12 @@ export const Question6 = () => {
       </div>
       <div className="col qpage qp6 qmain">
         <div className="container text-center">
-        <div className="question"><p>&nbsp;</p><p>&nbsp;</p><p>You're at the bar,</p><p>what are you ordering?</p><p>&nbsp;</p></div>
-          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="answerbtn" role="button">Answer 1</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 2</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 3</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 4</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="answerbtn2" role="button">Answer 5</a></div>
+        <div className="question"><p>&nbsp;</p><p>If you could be one</p><p>Superhero, which Hero</p><p>would you be?</p><p>&nbsp;</p></div>
+          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="sophisticated-3" role="button">Dr. Strange</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="mellow-1" role="button">Batman</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="intense-4" role="button">Thor</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="contemporary-5" role="button">Superman</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q7" className="btn btn-light answerbtn" id="unpretentious-2" role="button">Captain America</a></div>
           <div className="d-flex justify-content-center pagecount" id="pagecount">6 / 10</div>
         </div>
       </div>
