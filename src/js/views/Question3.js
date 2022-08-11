@@ -16,11 +16,11 @@ export const Question3 = () => {
       <div className="col qpage qp3 qmain">
         <div className="container text-center">
         <div className="question"><p>&nbsp;</p><p>You're on vacations on a</p><p>location you've never been</p><p>before, what are you MOST</p><p>excited for?</p></div>
-          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn" role="button">Sight-seeing, taking pictures for the 'gram - "Pics or didn't happen"</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn2" role="button">Learning about the History/Culture</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn2" role="button">Fiding the Hot Spots: Checking out the Night-Life</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn2" role="button">Culinary Scene - local eateries and fine dining</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="answerbtn2" role="button">RELAXING, spas and being pampered</a></div>
+          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="contemporary-5" role="button">Sight-seeing, taking pictures for the 'gram - "Pics or didn't happen"</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="unpretentious-2" role="button">Learning about the History/Culture</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="intense-4" role="button">Fiding the Hot Spots: Checking out the Night-Life</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="sophisticated-3" role="button">Culinary Scene - local eateries and fine dining</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q4" className="btn btn-light answerbtn" id="mellow-1" role="button">RELAXING, spas and being pampered</a></div>
           <div className="d-flex justify-content-center pagecount" id="pagecount">3 / 10</div>
         </div>
       </div>
