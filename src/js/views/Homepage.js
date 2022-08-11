@@ -4,7 +4,6 @@ import "../../styles/homepage.css";
 import "../../styles/home.css";
 
 //include images into your bundle
-import records from "../../img/records.jpg";
 import culture from "../../img/homepage/culture.jpg";
 import rocknroll from "../../img/homepage/rocknroll.jpg";
 import turntables from "../../img/homepage/turntables.jpg";
@@ -13,9 +12,8 @@ import saying from "../../img/homepage/saying.png";
 import saying2 from "../../img/homepage/saying2.png";
 import saying3 from "../../img/homepage/saying3.png";
 import saying4 from "../../img/homepage/saying4.png";
-import wax from "../../img/homepage/wax.jpg";
-import waxquiz from "../../img/homepage/waxquiz.png";
-import test2 from "../../img/homepage/test2.png";
+import vinylhero from "../../img/homepage/vinylhero.png";
+
 
 //create your first component
 const Homepage = () => {
@@ -65,9 +63,9 @@ const Homepage = () => {
         <img src={saying3} className="saying3" id="saying3" />
         <img src={saying4} className="saying4" id="saying4" />
       </div>
-      <div className="container-fluid d-flex mx-auto">
+      <div className="container-fluid mx-auto">
         <a href="/create-your-profile/">
-        <img src={test2} className="wax" id="wax" /></a>
+        <img src={vinylhero} className="wax" id="wax" /></a>
       </div>
     </body>
   );
