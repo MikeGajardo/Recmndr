@@ -3,14 +3,10 @@ import { Link } from "react-router-dom";
 
 import "../../styles/homepage.css";
 
-import mndrwide from "../../img/mndrwide.jpg";
-import basslogo from "../../img/basslogo.png";
-import dj from "../../img/dj.png";
-import audio from "../../img/audio.png";
-import mixer from "../../img/mixer.png";
-import records from "../../img/records.jpg";
-import tiktokexample from "../../img/tiktokexample.png";
-import tiktoksignup from "../../img/tiktoksignup.png";
+import mndrwide from "../../img/navbar/mndrwide.jpg";
+import dj from "../../img/navbar/dj.png";
+import tiktokexample from "../../img/navbar/tiktokexample.png";
+import tiktoksignup from "../../img/navbar/tiktoksignup.png";
 
 export const Navbar = () => {
   return (
