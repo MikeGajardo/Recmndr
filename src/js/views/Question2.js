@@ -16,11 +16,11 @@ export const Question2 = () => {
       <div className="col qpage qp2 qmain">
         <div className="container text-center">
         <div className="question"><p>&nbsp;</p><p>&nbsp;</p><p>If you have to pick a Film</p><p>genre, which would it be?</p><p>&nbsp;</p></div>
-          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="answerbtn" role="button">an Adventure or a Comedy flick</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="answerbtn2" role="button">Documentary</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="answerbtn2" role="button">Romance or a Musical</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="answerbtn2" role="button">Thriller</a></div>
-          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="answerbtn2" role="button">"I don't watch TV"</a></div>
+          <div className="d-flex justify-content-center answer"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="contemporary-5" role="button">an Adventure or a Comedy flick</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="sophisticated-3" role="button">Documentary</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="mellow-1" role="button">Romance or a Musical</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="intense-4" role="button">Thriller</a></div>
+          <div className="d-flex justify-content-center answer2"><a href="/create-your-profile/q3" className="btn btn-light answerbtn" id="unpretentious-2" role="button">"I don't watch TV"</a></div>
           <div className="d-flex justify-content-center pagecount" id="pagecount">2 / 10</div>
         </div>
       </div>
