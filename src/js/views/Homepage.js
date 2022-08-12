@@ -70,7 +70,7 @@ const Homepage = () => {
       </div>
       <div className="container-fluid mx-auto">
         <a href="/signup">
-        <img src={signuptoday} className="wax" id="wax" /></a>
+        <img src={signuptoday} className="signup" id="signup" /></a>
       </div>
     </body>
   );

@@ -52,12 +52,12 @@ export const Navbar = () => {
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/aboutus">
                         About Us
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/feedback">
                         Feedback
                       </a>
                     </li>
@@ -65,7 +65,7 @@ export const Navbar = () => {
                       <hr class="dropdown-divider"></hr>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/signup">
                         Sign Up
                       </a>
                     </li>

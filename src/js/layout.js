@@ -28,6 +28,8 @@ import Dbunpretentious from "./views/Dbunpretentious";
 import Dbsophisticated from "./views/Dbsophisticated";
 import Dbintense from "./views/Dbintense";
 import Dbcontemporary from "./views/Dbcontemporary";
+import Aboutus from "./views/Aboutus";
+import Feedback from "./views/Feedback";
 
 //create your first component
 const Layout = () => {
@@ -100,6 +102,12 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/signup">
 							<Signup />
+						</Route>
+						<Route exact path="/aboutus">
+							<Aboutus />
+						</Route>
+						<Route exact path="/feedback">
+							<Feedback />
 						</Route>
 						<Route>
 							<h1>Not found!</h1>
