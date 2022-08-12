@@ -2,7 +2,7 @@ import React from 'react'
 
 function Dbcontemporary() {
   return (
-    <div><h1>Dbcontemporary</h1></div>
+    <div><h1>Dashboard: Contemporary</h1></div>
   )
 }
 
