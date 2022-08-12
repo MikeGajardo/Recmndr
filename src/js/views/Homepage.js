@@ -13,6 +13,7 @@ import saying2 from "../../img/homepage/saying2.png";
 import saying3 from "../../img/homepage/saying3.png";
 import saying4 from "../../img/homepage/saying4.png";
 import vinylhero from "../../img/homepage/vinylhero.png";
+import signuptoday from "../../img/homepage/signuptoday.png";
 
 
 //create your first component
@@ -66,6 +67,10 @@ const Homepage = () => {
       <div className="container-fluid mx-auto">
         <a href="/create-your-profile/">
         <img src={vinylhero} className="wax" id="wax" /></a>
+      </div>
+      <div className="container-fluid mx-auto">
+        <a href="/signup">
+        <img src={signuptoday} className="wax" id="wax" /></a>
       </div>
     </body>
   );
