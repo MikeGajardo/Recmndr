@@ -112,11 +112,11 @@ export const Result = () => {
           >
             {/* Code here */}
             <div className="container-fluid mellowcolor">
-              <div className="d-flex justify-content-center"><img src={otis1} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis1} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={otis2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis2} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={otis3} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis3} className="imgcover" /></a></div>
             </div>
             {/* Mellow End */}
           </div>
@@ -130,11 +130,11 @@ export const Result = () => {
             {" "}
             {/* Code here */}
             <div className="container-fluid" id="unpretcol">
-              <div className="d-flex justify-content-center"><img src={woodstock1} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock1} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={woodstock2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock2} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={woodstock3} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock3} className="imgcover" /></a></div>
             </div>
             {/* Unpretentious End */}
           </div>
@@ -148,11 +148,11 @@ export const Result = () => {
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
             <div className="container-fluid mellowcolor">
-              <div className="d-flex justify-content-center"><img src={miles1} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles1} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={miles2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles2} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={miles3} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles3} className="imgcover" /></a></div>
             </div>
             </div>
           </div>
@@ -165,11 +165,11 @@ export const Result = () => {
           >
             {/* Code here */}
             <div className="container-fluid intnscol">
-            <div className="d-flex justify-content-center"><img src={intense1} className="imgcover" /></div>
+            <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense1} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={intense2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense2} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={intense3} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense3} className="imgcover" /></a></div>
             </div>
           </div>
           {/* Contemporary Page */}
@@ -181,11 +181,11 @@ export const Result = () => {
           >
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
-            <div className="d-flex justify-content-center"><img src={deejay1} className="imgcover" /></div>
+            <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay1} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={deejay2} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay2} className="imgcover" /></a></div>
               <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><img src={deejay3} className="imgcover" /></div>
+              <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay3} className="imgcover" /></a></div>
             </div>
           </div>
         </div>
