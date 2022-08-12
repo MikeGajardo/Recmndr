@@ -20,7 +20,7 @@ import Question10 from "./views/Question10";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
-import { Signup } from "./component/Signup";
+import Signup from "./views/Signup";
 
 //create your first component
 const Layout = () => {
