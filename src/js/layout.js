@@ -22,6 +22,13 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import Signup from "./views/Signup";
 
+// dashboard profiles
+import Dbmellow from "./views/Dbmellow";
+import Dbunpretentious from "./views/Dbunpretentious";
+import Dbsophisticated from "./views/Dbsophisticated";
+import Dbintense from "./views/Dbintense";
+import Dbcontemporary from "./views/Dbcontemporary";
+
 //create your first component
 const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -72,6 +79,21 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/my-profile">
 							<Result />
+						</Route>
+						<Route exact path="/my-profile/mellow">
+							<Dbmellow />
+						</Route>
+						<Route exact path="/my-profile/unpretentious">
+							<Dbunpretentious />
+						</Route>
+						<Route exact path="/my-profile/sophisticated">
+							<Dbsophisticated />
+						</Route>
+						<Route exact path="/my-profile/intense">
+							<Dbintense />
+						</Route>
+						<Route exact path="/my-profile/contemporary">
+							<Dbcontemporary />
 						</Route>
 						<Route exact path="/subscribe">
 							<Tiers />

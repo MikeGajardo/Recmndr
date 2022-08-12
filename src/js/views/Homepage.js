@@ -65,7 +65,7 @@ const Homepage = () => {
         <img src={saying4} className="saying4" id="saying4" />
       </div>
       <div className="container-fluid mx-auto">
-        <a href="/create-your-profile/">
+        <a href="/signup">
         <img src={vinylhero} className="wax" id="wax" /></a>
       </div>
       <div className="container-fluid mx-auto">
