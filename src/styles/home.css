@@ -77,3 +77,8 @@ margin-bottom: 40px;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+
+.signup {
+  width: 100%;
+  margin-top: 100px;
+}
