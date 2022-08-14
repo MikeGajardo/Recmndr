@@ -24,6 +24,7 @@ const Homepage = () => {
         id="carouselExampleIndicators"
         className="carousel slide mx-auto carousel-fade"
         data-bs-ride="true"
+        data-bs-interval="2000"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
