@@ -6,7 +6,7 @@ export const Questions = [
      unpretentious: "Moonshine or Absinthe, or BOTH",
      mellow: "Mimosa or an Aperol Spritz",
      intense: "I'll just take a Beer",
-     image: "../../img/quizpage/electronic.jpg"
+     image: "../../img/quizp/Users/alex/Documents/Code/Recmndr/Recmndr/src/img/quizpage/electronic.jpgage/electronic.jpg"
     },
     { 
      prompt: "If you have to pick a Film genre, which would it be?",
@@ -15,7 +15,7 @@ export const Questions = [
      unpretentious: "I don't watch TV",
      mellow: "Romance or a Musical",
      intense: "Thriller",
-     image: "../../img/quizpage/reggae.jpg"
+     image: "/Users/alex/Documents/Code/Recmndr/Recmndr/src/img/quizpage/blues.jpg"
     },
     { 
      prompt: "You're on vacations on a location you've never been before, what are you MOST excited for?",
@@ -24,7 +24,7 @@ export const Questions = [
      unpretentious: "Learning about the History/Culture",
      mellow: "RELAXING, spas and being pampered",
      intense: "Finding the Hot Spots: Checking out the Night-Life",
-     image: "/workspace/REC/src/img/quizpage/folk.jpg"
+     image: "/Users/alex/Documents/Code/Recmndr/Recmndr/src/img/quizpage/folk.jpg"
     },
     { 
      prompt: "Aside from popular Sports, which Sport would you be MOST inclined to try out?",

@@ -18,6 +18,8 @@ import Question7 from "./views/Question7";
 import Question8 from "./views/Question8";
 import Question9 from "./views/Question9";
 import Question10 from "./views/Question10";
+import Questionnaire from "./views/Questionnnaire";
+import Login from "./views/Login";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
