@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { AuthContexProvider } from "../Context/AuthContext";
 import ScrollToTop from "./component/scrollToTop";
 
 import Homepage from "./views/Homepage";
@@ -30,7 +31,6 @@ import Dbintense from "./views/Dbintense";
 import Dbcontemporary from "./views/Dbcontemporary";
 import Aboutus from "./views/Aboutus";
 import Feedback from "./views/Feedback";
-import Questionnaire from "./views/Questionnnaire";
 
 //create your first component
 const Layout = () => {
@@ -43,6 +43,7 @@ const Layout = () => {
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Navbar />
+					<AuthContexProvider>
 					<Switch>
 						<Route exact path="/">
 							<Homepage />
@@ -110,10 +111,11 @@ const Layout = () => {
 						<Route exact path="/feedback">
 							<Feedback />
 						</Route>
-						<Route>
-							<h1>Not found!</h1>
+						<Route exact path="/Login">
+							<Login />
 						</Route>
 					</Switch>
+					</AuthContexProvider>
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>

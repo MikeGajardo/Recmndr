@@ -1,41 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { UserAuth } from "../../Context/AuthContext";
 import { Card, Alert, Form, Button, Container } from "react-bootstrap";
-import { getDatabase, ref, get, child } from "firebase/database";
 
 
-export const Singup = () => {
+
+export const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const { createUser } = UserAuth();
+  const { signIn } = UserAuth();
   const history = useHistory();
+ 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
     try {
-      await createUser(email, password);
-      history.push("/login");
-    } catch (error) {
-      setError(error.message);
-      console.log(error.message);
+      await signIn(email, password);
+      history.push("/dashboard");
+    } catch (e) {
+      setError(e.message);
+      console.log(e.message);
     }
-    
-   
-    const dbRef = ref(getDatabase());
-    get(child(dbRef, "/"))
-      .then((snapshot) => {
-        if (snapshot.exists()) {
-          console.log(snapshot.val());
-        } else {
-          console.log("No data available");
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+
+//     const dbRef = ref(getDatabase());
+// get(child(dbRef, `usuarios/{id}`)).then((snapshot) => {
+//   if (snapshot.exists()) {
+//     console.log(snapshot.val());
+//   } else {
+//   }
+// }).catch((error) => {
+//   console.error(error);
+// });
   };
 
   return (
@@ -43,15 +40,15 @@ export const Singup = () => {
     <Container>
       <Card>
         <Card.Body>
-          <h2 className="text-center mb-4">Sign Up</h2>
+          <h2 className="text-center mb-4">Log in</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <div className="form-signin w-100 m-auto">
             <div>
-              <h1 className="h3 mb-3 fw-normal">Create an account</h1>
+              <h1 className="h3 mb-3 fw-normal">Sing in to you account</h1>
               <p className="mt-5 mb-3 text-muted">
-               If you have a account{" "}
-                <Link to="/Login" className="underline">
-                  Login
+                Don't have an account yet?{" "}
+                <Link to="/signup" className="underline">
+                  Sing up
                 </Link>
               </p>
             </div>
@@ -90,4 +87,4 @@ export const Singup = () => {
     </>
   );
 };
-export default Singup
+export default Login
