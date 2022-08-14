@@ -22,37 +22,37 @@ const Homepage = () => {
     <body>
       <div
         id="carouselExampleIndicators"
-        class="carousel slide mx-auto carousel-fade"
+        className="carousel slide mx-auto carousel-fade"
         data-bs-ride="true"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={culture} class="d-block w-100" alt="..." />
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={culture} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={rocknroll} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={rocknroll} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={turntables} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={turntables} className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
       <div className="container-fluid d-flex mx-auto">
