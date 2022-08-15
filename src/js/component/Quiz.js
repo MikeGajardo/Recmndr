@@ -31,40 +31,23 @@ export const Quiz = () => {
   };
 
     const finishQuiz = () => {
-    if (scoreCo > scoreSo || scoreCo > scoreUn || scoreCo > scoreMe || scoreCo > scoreIn) {
+    if (scoreCo > scoreSo && scoreCo > scoreUn && scoreCo > scoreMe && scoreCo > scoreIn) {
       history.push('/my-profile/contemporary') 
     }
-    if (scoreSo > scoreCo || scoreSo > scoreUn || scoreSo > scoreMe || scoreSo > scoreIn) {
+    if (scoreSo > scoreCo && scoreSo > scoreUn && scoreSo > scoreMe && scoreSo > scoreIn) {
       history.push('/my-profile/sophisticated') 
     }
-    if (scoreUn > scoreSo || scoreUn > scoreCo || scoreUn > scoreMe || scoreUn > scoreIn) {
+    if (scoreUn > scoreSo && scoreUn > scoreCo && scoreUn > scoreMe && scoreUn > scoreIn) {
       history.push('/my-profile/unpretentious') 
     }
-    if (scoreMe > scoreSo || scoreMe > scoreCo || scoreMe > scoreUn || scoreMe > scoreIn) {
+    if (scoreMe > scoreSo && scoreMe > scoreCo && scoreMe > scoreUn && scoreMe > scoreIn) {
       history.push('/my-profile/mellow') 
     }
-    if (scoreIn > scoreSo || scoreIn > scoreCo || scoreIn > scoreUn || scoreIn > scoreMe) {
+    if (scoreIn > scoreSo && scoreIn > scoreCo && scoreIn > scoreUn && scoreIn > scoreMe) {
       history.push('/my-profile/intense') 
     } 
   };
 
-  // const finishQuiz = () => {
-  //   if (optionChosen == Questions[currQuestion].contemporary) {
-  //     history.push('/my-profile') 
-  //   }
-  //   if (optionChosen == Questions[currQuestion].sophisticated) {
-  //     history.push('/create-your-profile/q10') 
-  //   }
-  //   if (optionChosen == Questions[currQuestion].unpretentious) {
-  //     history.push('/create-your-profile/q9') 
-  //   }
-  //   if (optionChosen == Questions[currQuestion].mellow) {
-  //     history.push('/create-your-profile/q8') 
-  //   }
-  //   if (optionChosen == Questions[currQuestion].intense) {
-  //     history.push('/create-your-profile/q7') 
-  //   } 
-  // };
 
   return (
     <div className="container mt-4">
