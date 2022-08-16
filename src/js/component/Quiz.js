@@ -90,9 +90,9 @@ export const Quiz = () => {
     <div className="container mt-4">
       <div className="row">
         <div className="col">
-          <img src={electronic} className="qimg" />
+          <img src={Questions[currQuestion].image} className="qimg" />
         </div>
-        <div className="col qpage qp1 qmain">
+        <div className={Questions[currQuestion].qpage}>
           <div className="container text-center">
             <div className="question">
               <p>&nbsp;</p>
