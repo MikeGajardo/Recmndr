@@ -45,7 +45,7 @@ export const Quiz = () => {
 
   const finishQuiz = () => {
     if (
-      scoreCo > scoreSo &&
+      scoreCo >= scoreSo &&
       scoreCo > scoreUn &&
       scoreCo > scoreMe &&
       scoreCo > scoreIn
@@ -53,7 +53,7 @@ export const Quiz = () => {
       history.push("/my-profile/contemporary");
     }
     if (
-      scoreSo > scoreCo &&
+      scoreSo >= scoreCo &&
       scoreSo > scoreUn &&
       scoreSo > scoreMe &&
       scoreSo > scoreIn
@@ -61,7 +61,7 @@ export const Quiz = () => {
       history.push("/my-profile/sophisticated");
     }
     if (
-      scoreUn > scoreSo &&
+      scoreUn >= scoreSo &&
       scoreUn > scoreCo &&
       scoreUn > scoreMe &&
       scoreUn > scoreIn
@@ -69,7 +69,7 @@ export const Quiz = () => {
       history.push("/my-profile/unpretentious");
     }
     if (
-      scoreMe > scoreSo &&
+      scoreMe >= scoreSo &&
       scoreMe > scoreCo &&
       scoreMe > scoreUn &&
       scoreMe > scoreIn
@@ -77,7 +77,7 @@ export const Quiz = () => {
       history.push("/my-profile/mellow");
     }
     if (
-      scoreIn > scoreSo &&
+      scoreIn >= scoreSo &&
       scoreIn > scoreCo &&
       scoreIn > scoreUn &&
       scoreIn > scoreMe
