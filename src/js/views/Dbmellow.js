@@ -22,6 +22,11 @@ import miles3 from "../../img/profilepage/miles3.jpg";
 import intense1 from "../../img/profilepage/intense1.jpg";
 import intense2 from "../../img/profilepage/intense2.jpg";
 import intense3 from "../../img/profilepage/intense3.jpg";
+import marvin from "../../img/profilepage/ac-marvin.jpg";
+import lana from "../../img/profilepage/ac-lana.jpg";
+import nora from "../../img/profilepage/ac-nora.png";
+import luther from "../../img/profilepage/ac-luther.jpg";
+import whitest from "../../img/profilepage/ac-whitest.jpg";
 
 export const Dbmellow = () => {
   return (
@@ -142,75 +147,61 @@ export const Dbmellow = () => {
 
             <div class="card-deck d-flex">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap" />
+                <img class="card-img-top" src={luther} alt="Card image cap" />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Luther Vandross
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">Never Too Much</small>
                   </p>
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap" />
+                <img class="card-img-top" src={lana} alt="Card image cap" />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Lana Del Rey
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">Born To Die</small>
                   </p>
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap" />
+                <img class="card-img-top" src={marvin} alt="Card image cap" />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Marvin Gaye
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">What's Going On</small>
                   </p>
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap" />
+                <img class="card-img-top" src={whitest} alt="Card image cap" />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Whitest Boy Alive
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">Rules</small>
                   </p>
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap" />
+                <img class="card-img-top" src={nora} alt="Card image cap" />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    Nora Jones
                   </p>
                   <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">Pick Me Up Off The Floor</small>
                   </p>
                 </div>
               </div>
+  
             </div>
 
             <div>
