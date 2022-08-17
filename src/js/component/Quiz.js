@@ -153,6 +153,7 @@ export const Quiz = () => {
                 Next Question
               </button>
             )}
+            <div className="d-flex justify-content-center pagecount" id="pagecount">{currQuestion + 1} / 10</div>
           </div>
         </div>
       </div>
