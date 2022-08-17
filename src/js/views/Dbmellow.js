@@ -139,7 +139,13 @@ export const Dbmellow = () => {
               </div>
             </div>
 
-            <div>
+            <div className="d-flex mx-auto justify-content-center">
+            <a href="#scrollbottom"><img src={mellow} className="iconics" id="iconics" /></a>
+            <a href="#scrollbottom"><img src={mellow} className="iconics" id="iconics" /></a>
+            <a href="#scrollbottom"><img src={mellow} className="iconics" id="iconics" /></a>
+            </div>
+
+            <div id="scrollbottom">
               <h4>
                 <strong>Albums You Can Expect to Receive From us:</strong>
               </h4>

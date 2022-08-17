@@ -5,7 +5,6 @@ import "../../styles/homepage.css";
 
 import mndrwide from "../../img/navbar/mndrwide.jpg";
 import dj from "../../img/navbar/dj.png";
-import tiktokexample from "../../img/navbar/tiktokexample.png";
 import tiktoksignup from "../../img/navbar/tiktoksignup.png";
 
 export const Navbar = () => {
