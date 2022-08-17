@@ -44,11 +44,11 @@ export const Login = () => {
           {error && <Alert variant="danger">{error}</Alert>}
           <div className="form-signin w-100 m-auto">
             <div>
-              <h1 className="h3 mb-3 fw-normal">Sing in to you account</h1>
+              <h1 className="h3 mb-3 fw-normal">Sign in to you account</h1>
               <p className="mt-5 mb-3 text-muted">
                 Don't have an account yet?{" "}
                 <Link to="/signup" className="underline">
-                  Sing up
+                  Sign up
                 </Link>
               </p>
             </div>
@@ -76,7 +76,7 @@ export const Login = () => {
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Check me out" />
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="submit" href="/create-your-profile">
                 Submit
               </Button>
             </Form>
