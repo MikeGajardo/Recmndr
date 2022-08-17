@@ -2,7 +2,6 @@ import React from "react";
 
 import "../../styles/profiles.css";
 
-
 import mellow from "../../img/profilepage/mellow.png";
 import unpretentious from "../../img/profilepage/unpretentious.png";
 import sophisticated from "../../img/profilepage/sophisticated.png";
@@ -112,12 +111,114 @@ export const Dbmellow = () => {
           >
             {/* Code here */}
             <div className="container-fluid mellowcolor">
-              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/mellow">
+                  <img src={otis1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/mellow">
+                  <img src={otis2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/mellow">
+                  <img src={otis3} className="imgcover" />
+                </a>
+              </div>
             </div>
+
+            <div>
+              <h4>
+                <strong>Albums You Can Expect to Receive From us:</strong>
+              </h4>
+            </div>
+
+            <div class="card-deck d-flex">
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4>
+                <strong>Preview on Spotify: (API HERE)</strong>
+              </h4>
+            </div>
+
             {/* Mellow End */}
           </div>
           {/* Unpretentious Page */}
@@ -130,15 +231,31 @@ export const Dbmellow = () => {
             {" "}
             {/* Code here */}
             <div className="container-fluid" id="unpretcol">
-              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/unpretentious">
+                  <img src={woodstock1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/unpretentious">
+                  <img src={woodstock2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/unpretentious">
+                  <img src={woodstock3} className="imgcover" />
+                </a>
+              </div>
             </div>
             {/* Unpretentious End */}
           </div>
-           {/* Sophisticated Page */}
+          {/* Sophisticated Page */}
           <div
             className="tab-pane fade"
             id="v-pills-sophisticated"
@@ -147,13 +264,29 @@ export const Dbmellow = () => {
           >
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
-            <div className="container-fluid mellowcolor">
-              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles3} className="imgcover" /></a></div>
-            </div>
+              <div className="container-fluid mellowcolor">
+                <div className="d-flex justify-content-center">
+                  <a href="/my-profile/sophisticated">
+                    <img src={miles1} className="imgcover" />
+                  </a>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <span>&nbsp;</span>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <a href="/my-profile/sophisticated">
+                    <img src={miles2} className="imgcover" />
+                  </a>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <span>&nbsp;</span>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <a href="/my-profile/sophisticated">
+                    <img src={miles3} className="imgcover" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           {/* Intense Page */}
@@ -165,11 +298,27 @@ export const Dbmellow = () => {
           >
             {/* Code here */}
             <div className="container-fluid intnscol">
-            <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/intense">
+                  <img src={intense1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/intense">
+                  <img src={intense2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/intense">
+                  <img src={intense3} className="imgcover" />
+                </a>
+              </div>
             </div>
           </div>
           {/* Contemporary Page */}
@@ -181,11 +330,27 @@ export const Dbmellow = () => {
           >
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
-            <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/contemporary">
+                  <img src={deejay1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/contemporary">
+                  <img src={deejay2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/contemporary">
+                  <img src={deejay3} className="imgcover" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
