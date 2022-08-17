@@ -46,41 +46,41 @@ export const Quiz = () => {
   const finishQuiz = () => {
     if (
       scoreCo >= scoreSo &&
-      scoreCo > scoreUn &&
-      scoreCo > scoreMe &&
-      scoreCo > scoreIn
+      scoreCo >= scoreUn &&
+      scoreCo >= scoreMe &&
+      scoreCo >= scoreIn
     ) {
       history.push("/my-profile/contemporary");
     }
     if (
       scoreSo >= scoreCo &&
-      scoreSo > scoreUn &&
-      scoreSo > scoreMe &&
-      scoreSo > scoreIn
+      scoreSo >= scoreUn &&
+      scoreSo >= scoreMe &&
+      scoreSo >= scoreIn
     ) {
       history.push("/my-profile/sophisticated");
     }
     if (
       scoreUn >= scoreSo &&
-      scoreUn > scoreCo &&
-      scoreUn > scoreMe &&
-      scoreUn > scoreIn
+      scoreUn >= scoreCo &&
+      scoreUn >= scoreMe &&
+      scoreUn >= scoreIn
     ) {
       history.push("/my-profile/unpretentious");
     }
     if (
       scoreMe >= scoreSo &&
-      scoreMe > scoreCo &&
-      scoreMe > scoreUn &&
-      scoreMe > scoreIn
+      scoreMe >= scoreCo &&
+      scoreMe >= scoreUn &&
+      scoreMe >= scoreIn
     ) {
       history.push("/my-profile/mellow");
     }
     if (
       scoreIn >= scoreSo &&
-      scoreIn > scoreCo &&
-      scoreIn > scoreUn &&
-      scoreIn > scoreMe
+      scoreIn >= scoreCo &&
+      scoreIn >= scoreUn &&
+      scoreIn >= scoreMe
     ) {
       history.push("/my-profile/intense");
     }
