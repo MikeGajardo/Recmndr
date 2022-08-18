@@ -20,14 +20,11 @@ function Aboutus() {
       <div className='d-flex mx-auto justify-content-center'><a href='https://github.com/MikeGajardo/Recmndr' className='qrcode' id='qrcode' target="_blank"><img src={qrcode} /></a></div>
       <div className='d-flex mx-auto justify-content-center'><img src={about} className="boutus" id='boutus'/></div>
       <div className='d-flex mx-auto justify-content-center'><img src={crafted} className="crafted" /></div>
-      <div className='d-flex mx-auto justify-content-center'><img src={beastie} className="boutus" /></div>
+      <div className='d-flex mx-auto justify-content-center'><img src={beastie} className="boutus pi" /></div>
       <div className='d-flex mx-auto justify-content-center'><img src={challenges} className="boutus" /></div>
-      <div className='d-flex mx-auto justify-content-center'><img src={pi} className="boutus" /></div>
+      <div className='d-flex mx-auto justify-content-center'><img src={pi} className="pi" /></div>
       <div className='d-flex mx-auto justify-content-center'><img src={future} className="boutus" /></div>
       <div className='d-flex mx-auto justify-content-center'><img src={vision} className="boutus" /></div>
-      
-
-    
     </div>
   )
 }

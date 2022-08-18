@@ -84,7 +84,7 @@ export const Login = () => {
                     label="Remember me"
                   />
                 </Form.Group>
-                <Button variant="outline-primary" type="submit">
+                <Button variant="outline-primary" type="submit" href="/create-your-profile">
                   Login
                 </Button>
                 <div className=" have-account w-100 text-center mt-2">
