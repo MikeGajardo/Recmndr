@@ -1,6 +1,6 @@
 import React from "react";
 
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 import {
   Button,
@@ -13,7 +13,7 @@ import {
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.js";
-import MusicFile from "./MusicFile";
+import MusicFile from "../component/MusicFile";
 
 const CLIENT_ID = "c84bc9400d084613ad02791a90a34969";
 const CLIENT_SECRET = "f9775eadb59a4ea7ae4cbe1189d53b82";

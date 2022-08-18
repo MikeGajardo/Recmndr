@@ -12,7 +12,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 					background: "white",
 					initial: "white"
 				}
-			]
+			],
+			currentAlbum: [],
 		},
 		actions: {
 			// Use getActions to call a function within a fuction

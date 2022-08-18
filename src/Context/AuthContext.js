@@ -7,7 +7,7 @@ import {
   GoogleAuthProvider,
   signInWithRedirect,
 } from "firebase/auth";
-import { auth, db } from "../firebase";
+import { auth, db } from "../fireBase";
 import { setDoc, doc, getDoc, collection, addDoc } from "firebase/firestore";
 
 const UserContext = createContext();
