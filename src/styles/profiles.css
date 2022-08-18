@@ -82,3 +82,18 @@
   opacity: .7;
   width: 150px;
 }
+
+.points {
+  width: 25%;
+  opacity: .9;
+}
+
+.card {
+  border: none;
+}
+
+.delivery {
+  width: 100%;
+  opacity: 1;
+  border-radius: 30px;
+}
