@@ -15,3 +15,9 @@
 .crafted {
     width: 80%;
 }
+
+.pi {
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 150px;
+}
