@@ -20,6 +20,7 @@ import Question9 from "./views/Question9";
 import Question10 from "./views/Question10";
 import Questionnaire from "./views/Questionnnaire";
 import Login from "./views/Login";
+import Paywall from "./views/Paywall";
 import Services from "./component/Services";
 
 import { Navbar } from "./component/navbar";
@@ -119,6 +120,9 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/Services">
 							<Services />
+						</Route>
+						<Route exact path="/checkout">
+							<Paywall />
 						</Route>
 					</Switch>
 					</AuthContexProvider>
