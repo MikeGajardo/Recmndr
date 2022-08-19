@@ -86,14 +86,46 @@
 .points {
   width: 25%;
   opacity: .9;
+  margin-bottom: 50px;
 }
 
 .card {
   border: none;
+  margin-top: 100px;
 }
 
 .delivery {
   width: 100%;
   opacity: 1;
   border-radius: 30px;
+}
+
+.del {
+  width: 25%;
+  border-radius: 40px;
+  margin-left: 15px;
+  opacity: .9;
+  margin-bottom: 50px;
+}
+
+.spacer {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.equalizer {
+  width: 50%;
+  margin-top: 100px;
+  opacity: .75;
+}
+
+.sub {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.receive {
+  margin-top: 100px;
+  width: 100%;
 }

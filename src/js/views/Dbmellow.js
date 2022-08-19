@@ -28,11 +28,19 @@ import nora from "../../img/profile-mellow/ac-nora.png";
 import luther from "../../img/profile-mellow/ac-luther.jpg";
 import whitest from "../../img/profile-mellow/ac-whitest.jpg";
 import samplemellow from "../../img/profile-mellow/samplemellow.png";
-import delivery from "../../img/profile-mellow/delivery.png";
+import delivery1 from "../../img/profile-mellow/delivery1.png";
+import delivery2 from "../../img/profile-mellow/delivery2.png";
+import delivery3 from "../../img/profile-mellow/delivery3.png";
+import delivery4 from "../../img/profile-mellow/delivery4.png";
 import point1 from "../../img/profile-mellow/point1.png";
 import point2 from "../../img/profile-mellow/point2.png";
 import point3 from "../../img/profile-mellow/point3.png";
 import point4 from "../../img/profile-mellow/point4.png";
+import subscribe from "../../img/profile-mellow/subscribe.png";
+import receive from "../../img/profile-mellow/receive.png";
+import join from "../../img/profile-mellow/join.png";
+import features from "../../img/profile-mellow/features.png";
+import equalizer from "../../img/profile-mellow/equalizer.jpg";
 
 export const Dbmellow = () => {
   return (
@@ -123,7 +131,7 @@ export const Dbmellow = () => {
             {/* Code here */}
             <div className="container-fluid mellowcolor">
               <div className="d-flex justify-content-center">
-                <a href="#scrollbottom">
+                <a href="#intro">
                   <img src={otis1} className="imgcover" />
                 </a>
               </div>
@@ -131,7 +139,7 @@ export const Dbmellow = () => {
                 <span>&nbsp;</span>
               </div>
               <div className="d-flex justify-content-center">
-                <a href="#scrollbottom">
+                <a href="#intro">
                   <img src={otis2} className="imgcover" />
                 </a>
               </div>
@@ -139,18 +147,24 @@ export const Dbmellow = () => {
                 <span>&nbsp;</span>
               </div>
               <div className="d-flex justify-content-center">
-                <a href="#scrollbottom">
+                <a href="#intro">
                   <img src={otis3} className="imgcover" />
                 </a>
               </div>
             </div>
 
             <div className="d-flex mx-auto justify-content-center">
-            <a href="#scrollbottom"><img src={mellow} className="iconics" id="iconics" /></a>
+            <a href="#intro"><img src={mellow} className="iconics" id="iconics" /></a>
             </div>
 
-            <div className="d-flex justify-content-center" id="scrollbottom">
-              <img src={samplemellow} className="delivery" />
+            {/* mellow page edit start */}
+
+            <div className="d-flex justify-content-center" id="intro">
+              <a href="#records"> <img src={samplemellow} className="delivery" /></a>
+            </div>
+
+            <div className="d-flex justify-content-center" id="records">
+              <a href="#soul"><img src={receive} className="receive" /></a>
             </div>
 
             <div className="card-deck d-flex">
@@ -211,9 +225,27 @@ export const Dbmellow = () => {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center" >
-              <a href="/checkout">
-                <img src={delivery} className="delivery" /></a>
+            <div className="d-flex justify-content-center">
+              <img src={equalizer} className="equalizer" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <a href="#invader"><img src={join} className="spacer" id="soul" /></a>  
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <img src={delivery1} className="del" />
+              <img src={delivery2} className="del" />
+              <img src={delivery3} className="del" />
+              <img src={delivery4} className="del" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <img src={equalizer} className="equalizer" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <a href="#join"><img src={features} className="spacer" id="invader" /></a> 
             </div>
 
             <div className="d-flex mx-auto justify-content-center">
@@ -221,6 +253,15 @@ export const Dbmellow = () => {
               <img src={point2} className="points" />
               <img src={point3} className="points" />
               <img src={point4} className="points" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <img src={equalizer} className="equalizer" />
+            </div>
+
+            <div className="d-flex justify-content-center" >
+              <a href="/checkout">
+                <img src={subscribe} className="sub" id="join"/></a>
             </div>
 
             <div className="d-flex justify-content-center">
