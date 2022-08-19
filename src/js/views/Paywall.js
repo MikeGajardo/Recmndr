@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Paywall() {
+export const Paywall = () => {
   return (
-    <div className='d-flex mx-auto justify-content-center'>
-        <h1>Pay with Credit Card</h1>
+    <div>
+      <h1>Test</h1>
     </div>
-  )
+  );
 }
 
-export default Paywall
+export default Paywall;

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { AuthContexProvider } from "../Context/AuthContext";
 import ScrollToTop from "./component/scrollToTop";
-
+import Musicfile from "./component/MusicFile"
 import Homepage from "./views/Homepage";
 import Question from "./views/Question";
 import Result from "./views/Result";
@@ -49,6 +49,9 @@ const Layout = () => {
 					<Navbar />
 					<AuthContexProvider>
 					<Switch>
+						<Route exact path="/Musicfile">
+							<Musicfile />
+						</Route>
 						<Route exact path="/">
 							<Homepage />
 						</Route>
