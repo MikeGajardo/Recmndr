@@ -35,6 +35,7 @@ import Dbintense from "./views/Dbintense";
 import Dbcontemporary from "./views/Dbcontemporary";
 import Aboutus from "./views/Aboutus";
 import Feedback from "./views/Feedback";
+import ProtectedRouter from "./component/ProtectedRouter";
 
 //create your first component
 const Layout = () => {
@@ -56,7 +57,9 @@ const Layout = () => {
 							<Homepage />
 						</Route>
 						<Route exact path="/create-your-profile">
+							<ProtectedRouter>
 							<Questionnaire />
+							</ProtectedRouter>
 						</Route>
 						<Route exact path="/create-your-profile/q1">
 							<Question1 />

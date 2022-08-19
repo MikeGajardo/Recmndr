@@ -5,7 +5,7 @@ import woodstock from "../../img/profilepage/woodstock.jpeg";
 export const Paywall = () => {
   return (
 <div className='check-container'>
-        <div className="card mx-auto col-md-5 col-8 mt-3 p-0">
+        <div className="check-card mx-auto col-md-5 col-8 mt-3 p-0">
             <img className='mx-auto pic check-img'
                 src={woodstock}/>
             <div className="card-title d-flex px-4">
