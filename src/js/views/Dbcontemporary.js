@@ -2,7 +2,6 @@ import React from "react";
 
 import "../../styles/profiles.css";
 
-
 import mellow from "../../img/profilepage/mellow.png";
 import unpretentious from "../../img/profilepage/unpretentious.png";
 import sophisticated from "../../img/profilepage/sophisticated.png";
@@ -23,6 +22,25 @@ import miles3 from "../../img/profilepage/miles3.jpg";
 import intense1 from "../../img/profilepage/intense1.jpg";
 import intense2 from "../../img/profilepage/intense2.jpg";
 import intense3 from "../../img/profilepage/intense3.jpg";
+import marvin from "../../img/profile-mellow/ac-marvin.jpg";
+import lana from "../../img/profile-mellow/ac-lana.jpg";
+import nora from "../../img/profile-mellow/ac-nora.png";
+import luther from "../../img/profile-mellow/ac-luther.jpg";
+import whitest from "../../img/profile-mellow/ac-whitest.jpg";
+import delivery1 from "../../img/profile-mellow/delivery1.png";
+import delivery2 from "../../img/profile-mellow/delivery2.png";
+import delivery3 from "../../img/profile-mellow/delivery3.png";
+import delivery4 from "../../img/profile-mellow/delivery4.png";
+import point1 from "../../img/profile-mellow/point1.png";
+import point2 from "../../img/profile-mellow/point2.png";
+import point3 from "../../img/profile-mellow/point3.png";
+import point4 from "../../img/profile-mellow/point4.png";
+import subscribe from "../../img/profile-mellow/subscribe.png";
+import receive from "../../img/profile-mellow/receive.png";
+import join from "../../img/profile-mellow/join.png";
+import features from "../../img/profile-mellow/features.png";
+import equalizer from "../../img/profile-mellow/equalizer.jpg";
+import samplecontemporary from "../../img/profile-contemporary/samplecontemporary.png";
 
 export const Dbcontemporary = () => {
   return (
@@ -42,7 +60,7 @@ export const Dbcontemporary = () => {
             type="button"
             role="tab"
             aria-controls="v-pills-mellow"
-            aria-selected="true"
+            aria-selected="false"
           >
             <img src={mellow} className="instruments" />
             <strong id="lettercolor">m</strong>ellow
@@ -94,7 +112,7 @@ export const Dbcontemporary = () => {
             type="button"
             role="tab"
             aria-controls="v-pills-contemporary"
-            aria-selected="false"
+            aria-selected="true"
           >
             <img src={contemporary} className="instruments" />
             <strong id="lettercolor">c</strong>ontemporary
@@ -112,12 +130,29 @@ export const Dbcontemporary = () => {
           >
             {/* Code here */}
             <div className="container-fluid mellowcolor">
-              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/mellow"><img src={otis3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/mellow">
+                  <img src={otis1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/mellow">
+                  <img src={otis2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/mellow">
+                  <img src={otis3} className="imgcover" />
+                </a>
+              </div>
             </div>
+
             {/* Mellow End */}
           </div>
           {/* Unpretentious Page */}
@@ -130,15 +165,31 @@ export const Dbcontemporary = () => {
             {" "}
             {/* Code here */}
             <div className="container-fluid" id="unpretcol">
-              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/unpretentious"><img src={woodstock3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/unpretentious">
+                  <img src={woodstock1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/unpretentious">
+                  <img src={woodstock2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/unpretentious">
+                  <img src={woodstock3} className="imgcover" />
+                </a>
+              </div>
             </div>
             {/* Unpretentious End */}
           </div>
-           {/* Sophisticated Page */}
+          {/* Sophisticated Page */}
           <div
             className="tab-pane fade"
             id="v-pills-sophisticated"
@@ -147,13 +198,29 @@ export const Dbcontemporary = () => {
           >
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
-            <div className="container-fluid mellowcolor">
-              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/sophisticated"><img src={miles3} className="imgcover" /></a></div>
-            </div>
+              <div className="container-fluid mellowcolor">
+                <div className="d-flex justify-content-center">
+                  <a href="/my-profile/sophisticated">
+                    <img src={miles1} className="imgcover" />
+                  </a>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <span>&nbsp;</span>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <a href="/my-profile/sophisticated">
+                    <img src={miles2} className="imgcover" />
+                  </a>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <span>&nbsp;</span>
+                </div>
+                <div className="d-flex justify-content-center">
+                  <a href="/my-profile/sophisticated">
+                    <img src={miles3} className="imgcover" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           {/* Intense Page */}
@@ -165,12 +232,29 @@ export const Dbcontemporary = () => {
           >
             {/* Code here */}
             <div className="container-fluid intnscol">
-            <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/intense"><img src={intense3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/intense">
+                  <img src={intense1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/intense">
+                  <img src={intense2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="/my-profile/intense">
+                  <img src={intense3} className="imgcover" />
+                </a>
+              </div>
             </div>
+
           </div>
           {/* Contemporary Page */}
           <div
@@ -181,12 +265,148 @@ export const Dbcontemporary = () => {
           >
             {/* Code here */}
             <div className="container-fluid" id="sophiscol">
-            <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay1} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay2} className="imgcover" /></a></div>
-              <div className="d-flex justify-content-center"><span>&nbsp;</span></div>
-              <div className="d-flex justify-content-center"><a href="/my-profile/contemporary"><img src={deejay3} className="imgcover" /></a></div>
+              <div className="d-flex justify-content-center">
+                <a href="#intro">
+                  <img src={deejay1} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="#intro">
+                  <img src={deejay2} className="imgcover" />
+                </a>
+              </div>
+              <div className="d-flex justify-content-center">
+                <span>&nbsp;</span>
+              </div>
+              <div className="d-flex justify-content-center">
+                <a href="#intro">
+                  <img src={deejay3} className="imgcover" />
+                </a>
+              </div>
             </div>
+
+            {/* contemporary edit start */}
+
+            <div className="d-flex mx-auto justify-content-center">
+            <a href="#intro"><img src={contemporary} className="iconics" id="iconics" /></a>
+            </div>
+
+            <div className="d-flex justify-content-center" id="intro">
+              <a href="#records"> <img src={samplecontemporary} className="delivery" /></a>
+            </div>
+
+            <div className="d-flex justify-content-center" id="records">
+              <a href="#soul"><img src={receive} className="receive" /></a>
+            </div>
+
+            <div className="card-deck d-flex">
+              <div className="card">
+                <img className="card-img-top" src={luther} alt="Card image cap" />
+                <div className="card-body">
+                  <p className="card-text">
+                    Luther Vandross
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">Never Too Much</small>
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src={lana} alt="Card image cap" />
+                <div className="card-body">
+                  <p className="card-text">
+                    Lana Del Rey
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">Born To Die</small>
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src={marvin} alt="Card image cap" />
+                <div className="card-body">
+                  <p className="card-text">
+                    Marvin Gaye
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">What's Going On</small>
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src={whitest} alt="Card image cap" />
+                <div className="card-body">
+                  <p className="card-text">
+                    Whitest Boy Alive
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">Rules</small>
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src={nora} alt="Card image cap" />
+                <div className="card-body">
+                  <p className="card-text">
+                    Nora Jones
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">Pick Me Up Off The Floor</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <img src={equalizer} className="equalizer" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <a href="#invader"><img src={join} className="spacer" id="soul" /></a>  
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <img src={delivery1} className="del" />
+              <img src={delivery2} className="del" />
+              <img src={delivery3} className="del" />
+              <img src={delivery4} className="del" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <img src={equalizer} className="equalizer" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <a href="#join"><img src={features} className="spacer" id="invader" /></a> 
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <img src={point1} className="points" />
+              <img src={point2} className="points" />
+              <img src={point3} className="points" />
+              <img src={point4} className="points" />
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <img src={equalizer} className="equalizer" />
+            </div>
+
+            <div className="d-flex justify-content-center" >
+              <a href="/checkout">
+                <img src={subscribe} className="sub" id="join"/></a>
+            </div>
+
+            <div className="d-flex justify-content-center">
+              <h4>
+                <strong>Preview on Spotify: (API HERE)</strong>
+              </h4>
+            </div>
+
+            {/* contemporary end */}
+
           </div>
         </div>
       </div>
