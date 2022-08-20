@@ -60,13 +60,13 @@ const Homepage = () => {
         <img src={needle} className="needle" id="needle" />
       </div>
       <div className="container d-flex justify-content-center contentz" id="contentz">
-        <img src={saying} className="saying" id="saying" />
-        <img src={saying2} className="saying2" id="saying2" />
-        <img src={saying3} className="saying3" id="saying3" />
-        <img src={saying4} className="saying4" id="saying4" />
+        <a href="#wax"><img src={saying} className="saying" id="saying" /></a>
+        <a href="#wax"><img src={saying2} className="saying2" id="saying2" /></a>
+        <a href="#wax"><img src={saying3} className="saying3" id="saying3" /></a>
+        <a href="#wax"><img src={saying4} className="saying4" id="saying4" /></a>
       </div>
       <div className="container-fluid mx-auto">
-        <a href="/signup">
+        <a href="#signup">
         <img src={vinylhero} className="wax" id="wax" /></a>
       </div>
       <div className="container-fluid mx-auto">

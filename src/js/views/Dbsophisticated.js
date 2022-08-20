@@ -22,11 +22,6 @@ import miles3 from "../../img/profilepage/miles3.jpg";
 import intense1 from "../../img/profilepage/intense1.jpg";
 import intense2 from "../../img/profilepage/intense2.jpg";
 import intense3 from "../../img/profilepage/intense3.jpg";
-import marvin from "../../img/profile-mellow/ac-marvin.jpg";
-import lana from "../../img/profile-mellow/ac-lana.jpg";
-import nora from "../../img/profile-mellow/ac-nora.png";
-import luther from "../../img/profile-mellow/ac-luther.jpg";
-import whitest from "../../img/profile-mellow/ac-whitest.jpg";
 import delivery1 from "../../img/profile-mellow/delivery1.png";
 import delivery2 from "../../img/profile-mellow/delivery2.png";
 import delivery3 from "../../img/profile-mellow/delivery3.png";
@@ -242,7 +237,7 @@ export const Dbsophisticated = () => {
               <a href="#soul"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex">
+            <div className="card-deck d-flex albumz">
               <div className="card">
                 <img className="card-img-top" src={milesd} alt="Card image cap" />
                 <div className="card-body">
@@ -291,7 +286,7 @@ export const Dbsophisticated = () => {
                 <img className="card-img-top" src={dave} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Dave Brubeck Quartet
+                    The Dave Brubeck Quartet
                   </p>
                   <p className="card-text">
                     <small className="text-muted">Time Out</small>
