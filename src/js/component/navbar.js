@@ -17,16 +17,16 @@ export const Navbar = () => {
           </a>
           <div className="d-flex">
             <div className="btn-group" role="group">
+              <a href="/Login">
               <button
                 type="button"
                 className="btn"
                 id="loginbutton"
-                // Modal Properties
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModalToggle"
+
               >
                 login
               </button>
+              </a>
               <div className="btn-group" role="group">
                 <button
                   id="btnGroupDrop1"
@@ -80,80 +80,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* Modal */}
-      <div
-        className="modal fade"
-        id="exampleModalToggle"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
-      >
-        <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalToggleLabel">
-                Modal 1: Tiktok Login Modal
-              </h5>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body">
-              <Link to="/login">Login</Link>
-            </div>
-            <div className="modal-footer">
-              <button
-                className="btn btn-primary"
-                data-bs-target="#exampleModalToggle2"
-                data-bs-toggle="modal"
-                data-bs-dismiss="modal"
-              >
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="modal fade"
-        id="exampleModalToggle2"
-        aria-hidden="true"
-        aria-labelledby="exampleModalToggleLabel2"
-        tabindex="-1"
-      >
-        <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalToggleLabel2">
-                Modal 2: Sign Up Page
-              </h5>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body">
-              <img src={tiktoksignup} className="tiktok" />
-            </div>
-            <div className="modal-footer">
-              <button
-                className="btn btn-primary"
-                data-bs-target="#exampleModalToggle"
-                data-bs-toggle="modal"
-                data-bs-dismiss="modal"
-              >
-                Back to Login
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Modal End */}
     </div>
   );
 };
