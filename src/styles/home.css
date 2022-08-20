@@ -90,3 +90,11 @@ margin-bottom: 40px;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+
+.float {
+  transition: transform 500ms;
+}
+
+.float:hover {
+  transform: scale(1.03);
+}

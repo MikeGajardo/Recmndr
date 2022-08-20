@@ -87,6 +87,12 @@
   width: 25%;
   opacity: .9;
   margin-bottom: 50px;
+  transition: transform 400ms;
+}
+
+.points:hover {
+  /* transform: translateY(-80px); */
+  transform: scale(1.32);
 }
 
 .check-card {
@@ -101,11 +107,17 @@
 }
 
 .del {
-  width: 25%;
+  width: 23%;
   border-radius: 40px;
   margin-left: 15px;
   opacity: .9;
+  margin-top: 100px;
   margin-bottom: 50px;
+  transition: transform 350ms;
+}
+
+.del:hover {
+  transform: translateY(-60px);
 }
 
 .spacer {
