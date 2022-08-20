@@ -41,6 +41,11 @@ import join from "../../img/profile-mellow/join.png";
 import features from "../../img/profile-mellow/features.png";
 import equalizer from "../../img/profile-mellow/equalizer.jpg";
 import samplecontemporary from "../../img/profile-contemporary/samplecontemporary.png";
+import bunny from "../../img/profile-contemporary/bunny.jpg";
+import daft from "../../img/profile-contemporary/daft.png";
+import marley from "../../img/profile-contemporary/marley.png";
+import sbtrkt from "../../img/profile-contemporary/sbtrkt.png";
+import tribe from "../../img/profile-contemporary/tribe.png";
 
 export const Dbcontemporary = () => {
   return (
@@ -302,59 +307,59 @@ export const Dbcontemporary = () => {
               <a href="#soul"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex">
+            <div className="card-deck d-flex albumz">
               <div className="card">
-                <img className="card-img-top" src={luther} alt="Card image cap" />
+                <img className="card-img-top" src={bunny} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Luther Vandross
+                    Bad Bunny
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Never Too Much</small>
+                    <small className="text-muted">X 100pre</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={lana} alt="Card image cap" />
+                <img className="card-img-top" src={daft} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Lana Del Rey
+                    Daft Punk
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Born To Die</small>
+                    <small className="text-muted">Discovery</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={marvin} alt="Card image cap" />
+                <img className="card-img-top" src={marley} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Marvin Gaye
+                    Bob Marley
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">What's Going On</small>
+                    <small className="text-muted">Natty Dread</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={whitest} alt="Card image cap" />
+                <img className="card-img-top" src={sbtrkt} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Whitest Boy Alive
+                    SBTRKT
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Rules</small>
+                    <small className="text-muted">SBTRKT</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={nora} alt="Card image cap" />
+                <img className="card-img-top" src={tribe} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Nora Jones
+                    A Tribe Called Quest
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Pick Me Up Off The Floor</small>
+                    <small className="text-muted">The Low End Theory</small>
                   </p>
                 </div>
               </div>

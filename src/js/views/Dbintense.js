@@ -22,11 +22,6 @@ import miles3 from "../../img/profilepage/miles3.jpg";
 import intense1 from "../../img/profilepage/intense1.jpg";
 import intense2 from "../../img/profilepage/intense2.jpg";
 import intense3 from "../../img/profilepage/intense3.jpg";
-import marvin from "../../img/profile-mellow/ac-marvin.jpg";
-import lana from "../../img/profile-mellow/ac-lana.jpg";
-import nora from "../../img/profile-mellow/ac-nora.png";
-import luther from "../../img/profile-mellow/ac-luther.jpg";
-import whitest from "../../img/profile-mellow/ac-whitest.jpg";
 import delivery1 from "../../img/profile-mellow/delivery1.png";
 import delivery2 from "../../img/profile-mellow/delivery2.png";
 import delivery3 from "../../img/profile-mellow/delivery3.png";
@@ -41,6 +36,11 @@ import join from "../../img/profile-mellow/join.png";
 import features from "../../img/profile-mellow/features.png";
 import equalizer from "../../img/profile-mellow/equalizer.jpg";
 import sampleintense from "../../img/profile-intense/sampleintense.png";
+import led from "../../img/profile-intense/led.jpg";
+import metallica from "../../img/profile-intense/metallica.png";
+import rage from "../../img/profile-intense/rage.jpg";
+import rush from "../../img/profile-intense/rush.jpg";
+import tool from "../../img/profile-intense/tool.png";
 
 export const Dbintense = () => {
   return (
@@ -269,59 +269,59 @@ export const Dbintense = () => {
               <a href="#soul"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex">
+            <div className="card-deck d-flex albumz">
               <div className="card">
-                <img className="card-img-top" src={luther} alt="Card image cap" />
+                <img className="card-img-top" src={led} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Luther Vandross
+                    Led Zeppelin
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Never Too Much</small>
+                    <small className="text-muted">Led Zeppelin</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={lana} alt="Card image cap" />
+                <img className="card-img-top" src={metallica} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Lana Del Rey
+                    Metallica
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Born To Die</small>
+                    <small className="text-muted">...And Justice For All</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={marvin} alt="Card image cap" />
+                <img className="card-img-top" src={rage} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Marvin Gaye
+                    Rage Against The Machine
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">What's Going On</small>
+                    <small className="text-muted">Rage Against The Machine</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={whitest} alt="Card image cap" />
+                <img className="card-img-top" src={rush} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Whitest Boy Alive
+                    Rush
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Rules</small>
+                    <small className="text-muted">Moving Pictures</small>
                   </p>
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src={nora} alt="Card image cap" />
+                <img className="card-img-top" src={tool} alt="Card image cap" />
                 <div className="card-body">
                   <p className="card-text">
-                    Nora Jones
+                    Tool
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">Pick Me Up Off The Floor</small>
+                    <small className="text-muted">Fear Inoculum</small>
                   </p>
                 </div>
               </div>
