@@ -7,11 +7,22 @@
 .check-img {
     width: 100%;
     border-radius: 5px;
+    max-height: 350px;
+}
+
+.check-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
 }
 
 .card-title {
     justify-content: space-between;
     margin-top: 25px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .register {
@@ -30,12 +41,16 @@ input {
     padding-left: 4px;
     background-color: #f7f1f1;
     font-size: 15px;
+    font-family: "Kanit", sans-serif;
 }
 
 .card-body {
     background-color: #f7f1f1;
 }
 
+.footer-check {
+    background-color: rgb(159, 152, 159);
+}
 
 .footer-check:hover {
     cursor: pointer;
@@ -75,4 +90,8 @@ input:focus {
 
 .order {
     margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: "Kanit", sans-serif;
 }

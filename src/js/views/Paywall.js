@@ -6,8 +6,9 @@ export const Paywall = () => {
   return (
 <div className='check-container'>
         <div className="check-card mx-auto col-md-5 col-8 mt-3 p-0">
+            <h3 className="mx-auto check-header">Let Us Do the Crate Digging</h3> 
             <img className='mx-auto pic check-img'
-                src={woodstock}/>
+                src="https://c.tenor.com/xnDLQ4WRYr0AAAAd/vinyl-records.gif"/>
             <div className="card-title d-flex px-4">
                 <p className="item text-muted">4 Records a Month</p>
                 <p>$69</p>
