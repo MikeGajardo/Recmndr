@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { AuthContexProvider } from "../Context/AuthContext";
 import ScrollToTop from "./component/scrollToTop";
-
+import Musicfile from "./component/MusicFile"
 import Homepage from "./views/Homepage";
 import Question from "./views/Question";
 import Result from "./views/Result";
@@ -20,6 +20,8 @@ import Question9 from "./views/Question9";
 import Question10 from "./views/Question10";
 import Questionnaire from "./views/Questionnnaire";
 import Login from "./views/Login";
+// import Paywall from "./views/Paywall";
+import Services from "./component/Services";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -47,6 +49,9 @@ const Layout = () => {
 					<Navbar />
 					<AuthContexProvider>
 					<Switch>
+						<Route exact path="/Musicfile">
+							<Musicfile />
+						</Route>
 						<Route exact path="/">
 							<Homepage />
 						</Route>
@@ -115,6 +120,12 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/Login">
 							<Login />
+						</Route>
+						<Route exact path="/Services">
+							<Services />
+						</Route>
+						<Route exact path="/checkout">
+							{/* <Paywall /> */}
 						</Route>
 					</Switch>
 					</AuthContexProvider>

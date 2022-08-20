@@ -1,4 +1,11 @@
+import firebase from "firebase/compat/app";
+import "firebase/compat/firestore";
+import { db } from "../../firebase";
+import { collection, addDoc } from "firebase/firestore";
+import { doc, setDoc, updateDoc } from "firebase/firestore";
+
 const getState = ({ getStore, getActions, setStore }) => {
+	
 	return {
 		store: {
 			demo: [
@@ -12,10 +19,35 @@ const getState = ({ getStore, getActions, setStore }) => {
 					background: "white",
 					initial: "white"
 				}
-			]
+			],
+			currentAlbum: [],
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
+			addToFavoriteList: async (currentUser, album) => {
+				console.log("currentUser", currentUser)
+				console.log("album", album)
+				const userDocRef = doc(db, "user", currentUser);
+
+				try {
+				const docRef = await updateDoc(userDocRef, {
+					favList: album
+				});
+				// console.log("Document written with ID: ", docRef.id);
+				} catch (e) {
+				console.error("Error adding document: ", e);
+				}
+				// db.collection(currentUser)
+				//   .add({
+				// 	album,
+				//   })
+				//   .then((docRef) => {
+				// 	console.log("Document written with ID: ", docRef.id);
+				//   })
+				//   .catch((error) => {
+				// 	console.error("Error adding document: ", error);
+				//   });
+			  },
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
 			},

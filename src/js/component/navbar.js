@@ -1,14 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { UserAuth } from "../../Context/AuthContext";
+import { useHistory } from "react-router-dom";
 
 import "../../styles/homepage.css";
 
 import mndrwide from "../../img/navbar/mndrwide.jpg";
 import dj from "../../img/navbar/dj.png";
-import tiktokexample from "../../img/navbar/tiktokexample.png";
 import tiktoksignup from "../../img/navbar/tiktoksignup.png";
 
 export const Navbar = () => {
+
+  const history = useHistory();
+  // const { logout } = UserAuth();
+
+  const handleLogout = async () => {
+    try {
+      await logout();
+      // history.push("/Signin");
+      console.log("You are log out");
+    } catch (e) {
+      console.log(e.message);
+    }
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -42,7 +57,7 @@ export const Navbar = () => {
                   className="dropdown-menu dropdown-menu-end"
                   aria-labelledby="btnGroupDrop1"
                 >
-                  <li>
+                 
                     <a className="dropdown-item" href="/create-your-profile/">
                       Quiz
                     </a>
@@ -69,7 +84,12 @@ export const Navbar = () => {
                         Sign Up
                       </a>
                     </li>
-                  </li>
+                    <li>
+                      <a className="dropdown-item" onClick={handleLogout}>
+                        Log out 
+                      </a>
+                    </li>
+                  
                 </ul>
               </div>
             </div>
@@ -82,7 +102,7 @@ export const Navbar = () => {
         id="exampleModalToggle"
         aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel"
-        tabindex="-1"
+        tabIndex="-1"
       >
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
@@ -118,7 +138,7 @@ export const Navbar = () => {
         id="exampleModalToggle2"
         aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2"
-        tabindex="-1"
+        tabIndex="-1"
       >
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">

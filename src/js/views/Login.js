@@ -16,7 +16,7 @@ export const Login = () => {
     setError("");
     try {
       await signIn(email, password);
-      history.push("/dashboard");
+      history.push("/create-your-profile");
     } catch (e) {
       setError(e.message);
       console.log(e.message);

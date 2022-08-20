@@ -1,3 +1,5 @@
+import React from "react";
+
 import { useContext, useEffect, useState } from "react";
 
 import {
@@ -77,6 +79,7 @@ const Services = () => {
   }, [store.currentAlbum]);
   function sendMeToMusicFile(image, name) {
     store.currentAlbum.push({ currentImage: image, currentName: name });
+    setTimeout(() => console.log("store.currentAlbum###", store.currentAlbum), 2000)
   }
   return (
     <div className="">
@@ -105,7 +108,7 @@ const Services = () => {
                   <Card.Title>{album.name}</Card.Title>
                   <Link to="/Musicfile">
                     <Button
-                      onClick={sendMeToMusicFile(
+                      onClick={() => sendMeToMusicFile(
                         album.images[0].url,
                         album.name
                       )}
@@ -124,4 +127,3 @@ const Services = () => {
 };
 
 export default Services;
-

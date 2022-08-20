@@ -21,9 +21,9 @@ export const AuthContexProvider = ({ children }) => {
     setDoc(doc(db, "user", email), {
       savedDoc: [],
     });
-    addDoc(collection(db, "user"), {
-      name: "email",
-    });
+    // addDoc(collection(db, "user"), {
+    //   name: "email",
+    // });
   };
   const signIn = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);

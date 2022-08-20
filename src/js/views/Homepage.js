@@ -19,7 +19,7 @@ import signuptoday from "../../img/homepage/signuptoday.png";
 //create your first component
 const Homepage = () => {
   return (
-    <body>
+    <>
       <div
         id="carouselExampleIndicators"
         className="carousel slide mx-auto carousel-fade"
@@ -73,7 +73,7 @@ const Homepage = () => {
         <a href="/signup">
         <img src={signuptoday} className="signup" id="signup" /></a>
       </div>
-    </body>
+    </>
   );
 };
 
