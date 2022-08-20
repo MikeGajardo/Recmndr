@@ -202,7 +202,7 @@ export const Dbunpretentious = () => {
               <a href="#soul"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex">
+            <div className="card-deck d-flex albumz">
               <div className="card">
                 <img className="card-img-top" src={cash} alt="Card image cap" />
                 <div className="card-body">
