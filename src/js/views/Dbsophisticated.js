@@ -304,10 +304,11 @@ export const Dbsophisticated = () => {
             </div>
 
             <div className="d-flex mx-auto justify-content-center">
+              <a href="#invader">
               <img src={delivery1} className="del" />
               <img src={delivery2} className="del" />
               <img src={delivery3} className="del" />
-              <img src={delivery4} className="del" />
+              <img src={delivery4} className="del" /></a>
             </div>
 
             <div className="d-flex justify-content-center">
@@ -319,10 +320,12 @@ export const Dbsophisticated = () => {
             </div>
 
             <div className="d-flex mx-auto justify-content-center">
+            <a href="#join">
               <img src={point1} className="points" />
               <img src={point2} className="points" />
               <img src={point3} className="points" />
               <img src={point4} className="points" />
+              </a>
             </div>
 
             <div className="d-flex justify-content-center">
