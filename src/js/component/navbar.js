@@ -46,9 +46,9 @@ export const Navbar = () => {
                       Quiz
                     </a>
                     <li>
-                      <a className="dropdown-item" href="/my-profile/">
+                      <Link className="dropdown-item" to="/my-profile">
                         Profile
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a className="dropdown-item" href="/services">

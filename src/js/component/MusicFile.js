@@ -15,17 +15,18 @@ import { db } from "../../fireBase";
 import { Context } from "../store/appContext.js";
 const MusicFile = ({ album }) => {
   const {store, actions} = useContext(Context)
-  const [like, setLike] = useState(false);
+  const [like, setLike] = useState('');
   const [saved, setSaved] = useState(false);
   const [loading, setLoading] = useState(true);
   const { user } = UserAuth();
+  console.log(like, "liked");
   const userId = doc(db, "user", `${user?.email}` )
   const savedMusic = async () => {
   if(user?.email) {
-    setLike(!like)
     setSaved(true)
-    await updateDoc(userId, {
-      savedMusic: arrayUnion({
+    setLike(!like)
+    await updateDoc(userId, { 
+     savedMusic: arrayUnion({
         id: album.id,
         title: album.name,
         img: album?.images[0].url
@@ -57,13 +58,18 @@ const MusicFile = ({ album }) => {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item> */}
-        <p onClick={savedMusic}>
+        <p onClick={(e) => {
+          e.preventDefault()
+          savedMusic()}}>
           {like ? (
             <FaHeart className="absolute top-4 left-4 text-gray-300" />
           ) : (
             <FaRegHeart className="absolute top-4 left-4 text-gray-300" />
           )}
         </p>
+        <div>
+          
+          </div>
         {/* <Carousel.Item>
           <img
           className="d-block w-100"

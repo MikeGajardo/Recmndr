@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { Context } from "../store/appContext.js";
 import "../../styles/profiles.css";
 
 
@@ -24,7 +24,12 @@ import intense1 from "../../img/profilepage/intense1.jpg";
 import intense2 from "../../img/profilepage/intense2.jpg";
 import intense3 from "../../img/profilepage/intense3.jpg";
 
+
+
 export const Result = () => {
+  const {store, actions} = useContext(Context)
+
+
   return (
     <div className="container-fluid">
       <div className="d-flex align-items-start pmain fontp">
@@ -190,7 +195,18 @@ export const Result = () => {
           </div>
         </div>
       </div>
+   
+        {/* <><div><img src={store.currentAlbum[0].currentImage}/>
+        <p>{store.currentAlbum[0].currentName}</p>
+        </div></> */}
+ {store.currentAlbum.map((item, index) =>{
+  return (
+    <><div>{item.currentName}</div>
+    <div><img src={item.currentImage}/></div></>
+  )
+  } )}
     </div>
+    
   );
 };
 
