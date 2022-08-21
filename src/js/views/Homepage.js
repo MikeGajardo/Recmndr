@@ -13,7 +13,10 @@ import saying2 from "../../img/homepage/saying2.png";
 import saying3 from "../../img/homepage/saying3.png";
 import saying4 from "../../img/homepage/saying4.png";
 import vinylhero from "../../img/homepage/vinylhero.png";
-import signuptoday from "../../img/homepage/signuptoday.png";
+import spin from "../../img/homepage/spin.gif";
+import wax1 from "../../img/homepage/wax1.png";
+import wax2 from "../../img/homepage/wax2.png";
+import label from "../../img/homepage/label.png";
 
 
 //create your first component
@@ -66,13 +69,25 @@ const Homepage = () => {
         <a href="#wax"><img src={saying4} className="saying4 float" id="saying4" /></a>
       </div>
       <div className="container-fluid mx-auto">
-        <a href="#signup">
+        <a href="#spinners">
         <img src={vinylhero} className="wax" id="wax" /></a>
       </div>
-      <div className="container-fluid mx-auto">
-        <a href="/signup">
-        <img src={signuptoday} className="signup" id="signup" /></a>
+      
+      <div className="container d-flex mx-auto justify-content-center" id="spinners">
+        <a href="#signup"><img src={wax1} className="spinning1"></img>
+        <img src={wax2} className="spinning2"></img></a>
+
       </div>
+
+      <div className="container-fluid d-flex mx-auto justify-content-center bckgrnd" id="signup">
+        <div className="row">
+          <div className="col-3"></div>
+          <div className="col-6"><a href="/Signup"> <img src={label} className="label"></img></a></div>
+          <div className="col-3"></div>
+        </div>
+        
+      </div>
+
     </body>
   );
 };
