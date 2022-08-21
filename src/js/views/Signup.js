@@ -3,7 +3,7 @@ import { Link, useHistory } from "react-router-dom";
 import { UserAuth } from "../../Context/AuthContext";
 import { Card, Alert, Form, Button, Container } from "react-bootstrap";
 import { getDatabase, ref, get, child } from "firebase/database";
-import signuptoday from "../../img/homepage/signuptoday.png";
+import vinylhero from "../../img/homepage/vinylhero.png";
 
 
 export const Singup = () => {
@@ -45,7 +45,7 @@ export const Singup = () => {
         <Card className="position-relative">
           <img
             clasName="img-fluid img-thumbnail"
-            src={signuptoday}
+            src={vinylhero}
           />
           <Card.Body
             border="white"

@@ -265,7 +265,7 @@ export const Dbunpretentious = () => {
             </div>
 
             <div className="d-flex justify-content-center">
-              <a href="#invader"><img src={join} className="spacer" id="soul" /></a>  
+              <img src={join} className="spacer" id="soul" />
             </div>
 
             <div className="d-flex mx-auto justify-content-center">
@@ -281,7 +281,7 @@ export const Dbunpretentious = () => {
             </div>
 
             <div className="d-flex justify-content-center">
-              <a href="#join"><img src={features} className="spacer" id="invader" /></a> 
+              <img src={features} className="spacer" id="invader" />
             </div>
 
             <div className="d-flex mx-auto justify-content-center">
