@@ -14,7 +14,7 @@ import "../../styles/aboutus.css";
 
 function Aboutus() {
   return (
-    <div className="container">
+    <div className="container" id="aboutustop">
       <div className="d-flex mx-auto justify-content-center disclaimer">
         <a href="#follow">
           <img src={disclaimer} className="disclaimer" />
@@ -57,7 +57,7 @@ function Aboutus() {
         <img src={future} className="future" id="future" />
       </div>
       <div className="d-flex mx-auto justify-content-center">
-        <a href="/">
+        <a href="#aboutustop">
           <img src={cranium} className="cranium" />
         </a>
       </div>

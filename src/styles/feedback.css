@@ -1,10 +1,5 @@
-.hearyou {
-    width: 40%;
-    opacity: .85;
-}
-
 .feedback {
-    width: 100%;
+    width: 1600px;
     border-radius: 10px;
-    opacity: .85;
+    opacity: .80;
 }
