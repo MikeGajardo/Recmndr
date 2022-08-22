@@ -1,23 +1,57 @@
-.aboutimg {
+.disclaimer {
     width: 100%;
     margin-top: 150px;
+    margin-bottom: 150px;
+    opacity: .95;
 }
 
 .qrcode {
-    width: 61%;
+    width: 62%;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 .boutus {
+    width: 100%;
+    opacity: .85;
+}
+
+.beastie {
     width: 100%;
     opacity: .9;
 }
 
 .crafted {
     width: 80%;
+    margin-top: 50px;
 }
 
 .pi {
     width: 100%;
-    opacity: .9;
-    margin-bottom: 150px;
+    opacity: .85;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.followalong {
+    width: 100%;
+    margin-top: 30px;
+    opacity: .85;
+}
+
+.challenges {
+    width: 100%;
+    margin-top: 150px;
+    opacity: .85;
+}
+
+.future {
+    width: 80%;
+    opacity: .85;
+}
+
+.cranium {
+    width: 100%;
+    opacity: .85;
+    border-radius: 30px;
 }
