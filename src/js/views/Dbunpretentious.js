@@ -302,11 +302,6 @@ export const Dbunpretentious = () => {
                 <img src={subscribe} className="sub" id="join"/></a>
             </div>
 
-            <div className="d-flex justify-content-center">
-              <h4>
-                <strong>Preview on Spotify: (API HERE)</strong>
-              </h4>
-            </div>
             {/* Unpretentious End */}
           </div>
           {/* Sophisticated Page */}
