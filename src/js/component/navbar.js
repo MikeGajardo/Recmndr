@@ -42,36 +42,36 @@ export const Navbar = () => {
                   aria-labelledby="btnGroupDrop1"
                 >
                   <li>
-                    <a className="dropdown-item" href="/create-your-profile">
+                    <Link className="dropdown-item" to="/create-your-profile">
                       Quiz
-                    </a>
+                    </Link>
                     <li>
                       <Link className="dropdown-item" to="/my-profile">
                         Profile
                       </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/services">
+                      <Link className="dropdown-item" to="/albums">
                         Albums
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/aboutus">
+                      <Link className="dropdown-item" to="/aboutus">
                         About Us
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/feedback">
+                      <Link className="dropdown-item" to="/feedback">
                         Feedback
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider"></hr>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/signup">
+                      <Link className="dropdown-item" to="/signup">
                         Sign Up
-                      </a>
+                      </Link>
                     </li>
                   </li>
                 </ul>
