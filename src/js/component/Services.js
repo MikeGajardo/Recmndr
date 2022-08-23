@@ -1,4 +1,6 @@
 import React from "react";
+import "../../styles/albums.css";
+import albumwall from "../../img/albums/albumwall.jpg"
 
 import { useContext, useEffect, useState } from "react";
 
@@ -83,10 +85,13 @@ const Services = () => {
   }
   return (
     <div className="">
+     <div className="">
+     <img src={albumwall} className="d-block mx-auto py-4 hero" alt="..." />
+     </div>
       <Container>
-        <InputGroup className="mb-3" size="lg">
+        <InputGroup className="mb-3 py-2" size="lg">
           <FormControl
-            placeholder="Search"
+            placeholder="Search for a record thats been on your wishlist..."
             type="input"
             onKeyPress={(e) => {
               if (e.key == "enter") {
@@ -96,7 +101,8 @@ const Services = () => {
             onChange={(e) => setInput(e.target.value)}
           />
         </InputGroup>
-        <Button onClick={search}>search</Button>
+        <Button className="mx-3 mb-3 btn btn-secondary" 
+        onClick={search}>Search</Button>
       </Container>
       <Container>
         <Row className="mx-2 row row-cols-4">
@@ -108,6 +114,7 @@ const Services = () => {
                   <Card.Title>{album.name}</Card.Title>
                   <Link to="/Musicfile">
                     <Button
+                      className="btn btn-secondary"
                       onClick={() => sendMeToMusicFile(
                         album.images[0].url,
                         album.name
