@@ -41,6 +41,8 @@ import receive from "../../img/profile-mellow/receive.png";
 import join from "../../img/profile-mellow/join.png";
 import features from "../../img/profile-mellow/features.png";
 import equalizer from "../../img/profile-mellow/equalizer.jpg";
+import notable from "../../img/profile-mellow/notable.jpg";
+import Spotify from "react-spotify-embed";
 
 export const Dbmellow = () => {
   return (
@@ -164,10 +166,10 @@ export const Dbmellow = () => {
             </div>
 
             <div className="d-flex justify-content-center" id="records">
-              <a href="#soul"><img src={receive} className="receive" /></a>
+              <a href="#covers"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex albumz">
+            <div className="card-deck d-flex albumz" id="covers">
               <div className="card">
                 <img className="card-img-top" src={luther} alt="Card image cap" />
                 <div className="card-body">
@@ -223,6 +225,20 @@ export const Dbmellow = () => {
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <a href="#soul">
+                <img src={notable} className="notable"></img>
+              </a>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center spotify">
+              <Spotify link="https://open.spotify.com/track/3nFJbZCHP4d9vduKjJLdBL?si=fed9acb835714944" id="luther"></Spotify>
+              <Spotify link="https://open.spotify.com/track/2MrvoOqj007UVWUtGcCK0F?si=796c39c189364a3b" id="lana"></Spotify>
+              <Spotify link="https://open.spotify.com/track/3Um9toULmYFGCpvaIPFw7l?si=19fa3baa07314d44" id="marvin"></Spotify>
+              <Spotify link="https://open.spotify.com/track/7hejG1JwFh3NsfUze7KaJ9?si=4aa9e5772b7649e0" id="whitestboy"></Spotify>
+              <Spotify link="https://open.spotify.com/track/5pPWsSBURmhZ9VKcMMIlkV?si=bdbe38862d70452c" id="norah"></Spotify>
             </div>
 
             <div className="d-flex justify-content-center">

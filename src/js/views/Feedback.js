@@ -1,4 +1,5 @@
 import React from "react";
+import Spotify from "react-spotify-embed";
 
 import feedback from "../../img/feedback/feedback.png";
 
