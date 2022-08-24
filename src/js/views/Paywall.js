@@ -1,6 +1,5 @@
 import React from "react";
-import "../../styles/paywall.css";
-import woodstock from "../../img/profilepage/woodstock.jpeg";
+import "../../styles/paywall.css"; 
 
 export const Paywall = () => {
   return (
