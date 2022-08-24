@@ -22,11 +22,6 @@ import miles3 from "../../img/profilepage/miles3.jpg";
 import intense1 from "../../img/profilepage/intense1.jpg";
 import intense2 from "../../img/profilepage/intense2.jpg";
 import intense3 from "../../img/profilepage/intense3.jpg";
-import marvin from "../../img/profile-mellow/ac-marvin.jpg";
-import lana from "../../img/profile-mellow/ac-lana.jpg";
-import nora from "../../img/profile-mellow/ac-nora.png";
-import luther from "../../img/profile-mellow/ac-luther.jpg";
-import whitest from "../../img/profile-mellow/ac-whitest.jpg";
 import delivery1 from "../../img/profile-mellow/delivery1.png";
 import delivery2 from "../../img/profile-mellow/delivery2.png";
 import delivery3 from "../../img/profile-mellow/delivery3.png";
@@ -40,12 +35,14 @@ import receive from "../../img/profile-mellow/receive.png";
 import join from "../../img/profile-mellow/join.png";
 import features from "../../img/profile-mellow/features.png";
 import equalizer from "../../img/profile-mellow/equalizer.jpg";
+import notable from "../../img/profile-mellow/notable.jpg";
 import samplecontemporary from "../../img/profile-contemporary/samplecontemporary.png";
 import bunny from "../../img/profile-contemporary/bunny.jpg";
 import daft from "../../img/profile-contemporary/daft.png";
 import marley from "../../img/profile-contemporary/marley.png";
 import sbtrkt from "../../img/profile-contemporary/sbtrkt.png";
 import tribe from "../../img/profile-contemporary/tribe.png";
+import Spotify from "react-spotify-embed";
 
 export const Dbcontemporary = () => {
   return (
@@ -304,10 +301,10 @@ export const Dbcontemporary = () => {
             </div>
 
             <div className="d-flex justify-content-center" id="records">
-              <a href="#soul"><img src={receive} className="receive" /></a>
+              <a href="#covers"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex albumz">
+            <div className="card-deck d-flex albumz" id="covers">
               <div className="card">
                 <img className="card-img-top" src={bunny} alt="Card image cap" />
                 <div className="card-body">
@@ -363,6 +360,20 @@ export const Dbcontemporary = () => {
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <a href="#soul">
+                <img src={notable} className="notable"></img>
+              </a>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center spotify">
+              <Spotify link="https://open.spotify.com/track/4UEuIEv9Wc3wtiWUplGJ7q?si=ef780885513f44b6" id="bunny"></Spotify>
+              <Spotify link="https://open.spotify.com/track/1NeLwFETswx8Fzxl2AFl91?si=e208442fa845405c" id="daft"></Spotify>
+              <Spotify link="https://open.spotify.com/track/2Ezmm08Oy4772SkEoC18Kt?si=17c212f2d1fe46c3" id="marley"></Spotify>
+              <Spotify link="https://open.spotify.com/track/1PpfOKfKJR5gVfz7yejNB7?si=b6e0319681d14d65" id="sbtrkt"></Spotify>
+              <Spotify link="https://open.spotify.com/track/4HfxDJ0uLHTLe0fZrx0MbQ?si=1c8020f0d7964e6f" id="tribe"></Spotify>
             </div>
 
             <div className="d-flex justify-content-center">

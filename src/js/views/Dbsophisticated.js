@@ -35,12 +35,14 @@ import receive from "../../img/profile-mellow/receive.png";
 import join from "../../img/profile-mellow/join.png";
 import features from "../../img/profile-mellow/features.png";
 import equalizer from "../../img/profile-mellow/equalizer.jpg";
+import notable from "../../img/profile-mellow/notable.jpg";
 import samplesophisticated from "../../img/profile-sophisticated/samplesophisticated.png";
 import axelrod from "../../img/profile-sophisticated/axelrod.png";
 import bob from "../../img/profile-sophisticated/bob.jpg";
 import cymande from "../../img/profile-sophisticated/cymande.jpg";
 import dave from "../../img/profile-sophisticated/dave.jpg";
 import milesd from "../../img/profile-sophisticated/milesd.jpg";
+import Spotify from "react-spotify-embed";
 
 export const Dbsophisticated = () => {
   return (
@@ -234,10 +236,10 @@ export const Dbsophisticated = () => {
             </div>
 
             <div className="d-flex justify-content-center" id="records">
-              <a href="#soul"><img src={receive} className="receive" /></a>
+              <a href="#covers"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex albumz">
+            <div className="card-deck d-flex albumz" id="covers">
               <div className="card">
                 <img className="card-img-top" src={milesd} alt="Card image cap" />
                 <div className="card-body">
@@ -293,6 +295,20 @@ export const Dbsophisticated = () => {
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <a href="#soul">
+                <img src={notable} className="notable"></img>
+              </a>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center spotify">
+              <Spotify link="https://open.spotify.com/track/15tLhnzO4o8fMOEjdZGfII?si=3734a183f4c54f3d" id="miles"></Spotify>
+              <Spotify link="https://open.spotify.com/track/0aurAmzvkM6KSaaoNIofZ7?si=8f698dfa514b4d8b" id="axelrod"></Spotify>
+              <Spotify link="https://open.spotify.com/track/6dckUAPaw3WF2ZyhEACQDK?si=88390a0ec36a46d3" id="cymande"></Spotify>
+              <Spotify link="https://open.spotify.com/track/2emP5oaNH6cwFsugIPqVau?si=b1fd5c1edf844eef" id="bobjames"></Spotify>
+              <Spotify link="https://open.spotify.com/track/1YQWosTIljIvxAgHWTp7KP?si=678800240114413c" id="brubeck"></Spotify>
             </div>
 
             <div className="d-flex justify-content-center">
