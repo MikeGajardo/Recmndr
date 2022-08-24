@@ -35,12 +35,14 @@ import receive from "../../img/profile-mellow/receive.png";
 import join from "../../img/profile-mellow/join.png";
 import features from "../../img/profile-mellow/features.png";
 import equalizer from "../../img/profile-mellow/equalizer.jpg";
+import notable from "../../img/profile-mellow/notable.jpg";
 import sampleunpretentious from "../../img/profile-unpretentious/sampleunpretentious.png";
 import beatles from "../../img/profile-unpretentious/beatles.jpg";
 import cash from "../../img/profile-unpretentious/cash.png";
 import jimi from "../../img/profile-unpretentious/jimi.jpg";
 import mamapapa from "../../img/profile-unpretentious/mamapapa.png";
 import stevieray from "../../img/profile-unpretentious/stevieray.jpg";
+import Spotify from "react-spotify-embed";
 
 export const Dbunpretentious = () => {
   return (
@@ -199,10 +201,10 @@ export const Dbunpretentious = () => {
             </div>
 
             <div className="d-flex justify-content-center" id="records">
-              <a href="#soul"><img src={receive} className="receive" /></a>
+              <a href="#covers"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex albumz">
+            <div className="card-deck d-flex albumz" id="covers">
               <div className="card">
                 <img className="card-img-top" src={cash} alt="Card image cap" />
                 <div className="card-body">
@@ -258,6 +260,20 @@ export const Dbunpretentious = () => {
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <a href="#soul">
+                <img src={notable} className="notable"></img>
+              </a>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center spotify">
+              <Spotify link="https://open.spotify.com/track/28cnXtME493VX9NOw9cIUh?si=97f6f83c34614a6d" id="cash"></Spotify>
+              <Spotify link="https://open.spotify.com/track/2EqlS6tkEnglzr7tkKAAYD?si=ad8ee97802cf4e96" id="beatles"></Spotify>
+              <Spotify link="https://open.spotify.com/track/0NWPxcsf5vdjdiFUI8NgkP?si=a103427d569f47f0" id="hendrix"></Spotify>
+              <Spotify link="https://open.spotify.com/track/4s6LhHAV5SEsOV0lC2tjvJ?si=4ff443eaad3c452c" id="mompop"></Spotify>
+              <Spotify link="https://open.spotify.com/track/1a2iF9XymafjRk56q7oCxo?si=0aa6068a5c9d4481" id="stevieray"></Spotify>
             </div>
 
             <div className="d-flex justify-content-center">

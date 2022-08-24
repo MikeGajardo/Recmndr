@@ -35,12 +35,14 @@ import receive from "../../img/profile-mellow/receive.png";
 import join from "../../img/profile-mellow/join.png";
 import features from "../../img/profile-mellow/features.png";
 import equalizer from "../../img/profile-mellow/equalizer.jpg";
+import notable from "../../img/profile-mellow/notable.jpg";
 import sampleintense from "../../img/profile-intense/sampleintense.png";
 import led from "../../img/profile-intense/led.jpg";
 import metallica from "../../img/profile-intense/metallica.png";
 import rage from "../../img/profile-intense/rage.jpg";
 import rush from "../../img/profile-intense/rush.jpg";
 import tool from "../../img/profile-intense/tool.png";
+import Spotify from "react-spotify-embed";
 
 export const Dbintense = () => {
   return (
@@ -266,10 +268,10 @@ export const Dbintense = () => {
             </div>
 
             <div className="d-flex justify-content-center" id="records">
-              <a href="#soul"><img src={receive} className="receive" /></a>
+              <a href="#covers"><img src={receive} className="receive" /></a>
             </div>
 
-            <div className="card-deck d-flex albumz">
+            <div className="card-deck d-flex albumz" id="covers">
               <div className="card">
                 <img className="card-img-top" src={led} alt="Card image cap" />
                 <div className="card-body">
@@ -325,6 +327,20 @@ export const Dbintense = () => {
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center">
+              <a href="#soul">
+                <img src={notable} className="notable"></img>
+              </a>
+            </div>
+
+            <div className="d-flex mx-auto justify-content-center spotify">
+              <Spotify link="https://open.spotify.com/track/4OMu5a8sFpcRCPCcsoEaov?si=1cdac05e860a4d33" id="zeppelin"></Spotify>
+              <Spotify link="https://open.spotify.com/track/3IolN0Ae207i0Fr9IHuNbu?si=8797d1f5fb1a4ed5" id="metallica"></Spotify>
+              <Spotify link="https://open.spotify.com/track/6ZU9RJIZ0fNaFuQM57bDIA?si=ea6baa047a8e4501" id="rage"></Spotify>
+              <Spotify link="https://open.spotify.com/track/3lpDrxUkr0tIe1kmJvdK7d?si=1c338e2b213541ce" id="rush"></Spotify>
+              <Spotify link="https://open.spotify.com/track/03sEzk1VyrUZSgyhoQR0LZ?si=e4c67836571c4d46" id="tool"></Spotify>
             </div>
 
             <div className="d-flex justify-content-center">
