@@ -52,7 +52,7 @@ export const Navbar = () => {
                     </li>
                     <li>
                       <Link className="dropdown-item" to="/albums">
-                        Albums
+                        Wishlist
                       </Link>
                     </li>
                     <li>

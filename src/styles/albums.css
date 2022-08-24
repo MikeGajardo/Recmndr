@@ -1,6 +1,7 @@
 .hero {
     border-radius: 20px;
     width: 1250px;
+    opacity: .9;
 }
 
 .a-cover {
