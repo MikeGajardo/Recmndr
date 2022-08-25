@@ -22,7 +22,7 @@ import speaker from "../../img/homepage/speaker.png";
 //create your first component
 const Homepage = () => {
   return (
-    <body>
+    <>
       <div
         id="carouselExampleIndicators"
         className="carousel slide mx-auto carousel-fade"
@@ -87,7 +87,7 @@ const Homepage = () => {
         </div>
       </div>
 
-    </body>
+    </>
   );
 };
 

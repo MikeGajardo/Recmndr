@@ -45,6 +45,7 @@ export const Navbar = () => {
                     <Link className="dropdown-item" to="/create-your-profile">
                       Quiz
                     </Link>
+                    </li>
                     <li>
                       <Link className="dropdown-item" to="/my-profile">
                         Profile
@@ -73,7 +74,6 @@ export const Navbar = () => {
                         Sign Up
                       </Link>
                     </li>
-                  </li>
                 </ul>
               </div>
             </div>
