@@ -42,25 +42,27 @@ const MusicFile = ({ album }) => {
   console.log("album", album )
   return (
     <>
-    <div className="">
-      <Container fluid>
+    <div className="musicmain">
+      <Container fluid className="music-card">
         <img
-          className="d-block mx-auto a-cover mt-3"
+          className="d-block mx-auto a-cover mt-5 pt-4"
           src={store.currentAlbum[0].currentImage}
           alt="Second slide"
         />
-        <p className="d-block mx-auto text-center">{store.currentAlbum[0].currentName}</p>
-        <Link to="/albums">
-        <p className="d-block mx-auto text-center" onClick={(e) => {
+        <p className="d-block mx-auto text-center a-name">{store.currentAlbum[0].currentName}</p>
+        <p className="d-block mx-auto text-center pb-4" onClick={(e) => {
           e.preventDefault()
           savedMusic()}}>
           {like ? (
-            <FaHeart className="absolute top-4 left-4 text-gray-300" />
+            <Link to="/my-profile">
+            <img className="ipod" src="https://media1.giphy.com/media/QMI6md8Rb7CWHSHND7/giphy.gif"/>
+            </Link>
           ) : (
-            <FaRegHeart className="absolute top-4 left-4 text-gray-300" />
+            <Link to="/my-profile">
+            <img className="ipod" src="https://media1.giphy.com/media/QMI6md8Rb7CWHSHND7/giphy.gif"/>
+            </Link>
           )}
         </p>
-        </Link>
         <div>
           
           </div>

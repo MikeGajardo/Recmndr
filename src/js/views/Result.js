@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext.js";
-import "../../styles/profiles.css";
+import "../../styles/result.css";
 import {
   Button,
   Card,
@@ -17,7 +17,7 @@ export const Result = () => {
   return (
     <div className="container-fluid">
       <Container>
-        <h3 className="mt-2 text-center">My Recomndr</h3>
+        <h3 className="my-4 text-center result-header"><u>MY WISHLIST</u></h3>
         <Row className="mx-2 row row-cols-4">
           {store.currentAlbum.map((item, index) => {
             return (

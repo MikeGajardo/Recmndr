@@ -5,7 +5,6 @@ import ScrollToTop from "./component/scrollToTop";
 import Musicfile from "./component/MusicFile"
 import Homepage from "./views/Homepage";
 import Result from "./views/Result";
-import Tiers from "./views/Tiers";
 import injectContext from "./store/appContext";
 import Questionnaire from "./views/Questionnnaire";
 import Login from "./views/Login";
@@ -67,9 +66,6 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/my-profile/contemporary">
 							<Dbcontemporary />
-						</Route>
-						<Route exact path="/subscribe">
-							<Tiers />
 						</Route>
 						<Route exact path="/signup">
 							<Signup />

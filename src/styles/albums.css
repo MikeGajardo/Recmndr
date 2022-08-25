@@ -7,4 +7,33 @@
 .a-cover {
     width: 320px;
     height: 320px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.a-name {
+    font-family: 'Monoton', serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.musicmain {
+    background-image: url("https://img.freepik.com/premium-vector/lightning-doodle-thunderbolt-seamless-pattern-hand-drawn-doodle-sketch-style-electric-flash-energy-bolt-background-vector-illustration_253081-996.jpg");
+    height: 650px;
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.music-card {
+    background-color: white;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.ipod {
+    width: 150px;
+    height: 150px;
 }
