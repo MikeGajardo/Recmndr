@@ -24,6 +24,7 @@ const Homepage = () => {
   return (
     <>
       <div
+        id="carouselExampleIndicators"
         className="carousel slide mx-auto carousel-fade"
         data-bs-ride="true"
         data-bs-interval="2000"
