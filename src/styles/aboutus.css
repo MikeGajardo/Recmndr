@@ -1,6 +1,6 @@
 .disclaimer {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 150px;
     opacity: .95;
 }
@@ -23,7 +23,7 @@
 
 .crafted {
     width: 80%;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .pi {
@@ -35,23 +35,45 @@
 
 .followalong {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 100px;
     opacity: .85;
 }
 
 .challenges {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 275px;
     opacity: .85;
 }
 
 .future {
-    width: 80%;
+    width: 1000px;
     opacity: .85;
 }
 
 .cranium {
-    width: 100%;
+    width: 60%;
     opacity: .85;
     border-radius: 30px;
+}
+
+.accordion-button {
+    display:block;
+    text-align: center;
+    font-size: 42px;
+    font-family: "Kanit", sans-serif;
+    color: rgb(169, 13, 13);
+    opacity: .9;
+}
+
+.bios {
+    opacity: .8;
+}
+
+.techused {
+    opacity: .85;
+    width: 1200px;
+}
+
+.spindoctor {
+    margin-top: 200px;
 }
