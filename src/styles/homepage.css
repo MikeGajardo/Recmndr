@@ -135,18 +135,23 @@
     border-radius: 10%;
     filter: grayscale(100%);
     opacity: .50;
-    transition: rotate 1600ms ease-in-out, filter 1200ms ease-in, opacity 1800ms ease-in-out, scale 1600ms ease-in-out;
+    cursor: pointer;
+    transition: rotate 800ms ease-in, filter 900ms ease-in, opacity 900ms ease-in;
   }
 
   .label:hover{
-    rotate: 270deg;
+    rotate: 260deg;
     filter: grayscale(0%);
     opacity: .9;
-    scale: 1.15;
   }
 
   .speaker {
     width: 100%;
     margin-top: 125px;
     opacity: .9;
+    transition: scale 100ms;
+  }
+
+  .speaker:hover{
+    scale: 1.05;
   }

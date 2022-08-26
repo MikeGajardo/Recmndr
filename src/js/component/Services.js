@@ -91,7 +91,7 @@ const Services = () => {
       <Container>
         <InputGroup className="mb-3 py-2" size="lg">
           <FormControl
-            placeholder="Search for a record on your radar..."
+            placeholder="Search for an Artist on your radar..."
             type="input"
             onKeyPress={(e) => {
               if (e.key == "enter") {

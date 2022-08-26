@@ -24,7 +24,6 @@ const Homepage = () => {
   return (
     <>
       <div
-        id="carouselExampleIndicators"
         className="carousel slide mx-auto carousel-fade"
         data-bs-ride="true"
         data-bs-interval="2000"
@@ -82,7 +81,7 @@ const Homepage = () => {
       <div className="container-fluid d-flex mx-auto justify-content-center bckgrnd" id="signup">
         <div className="row">
           <div className="col-4"><a href="/Signup"><img src={speaker} className="speaker"></img></a></div>
-          <div className="col-4"><a href="/Signup"> <img src={label} className="label"></img></a></div>
+          <div className="col-4"><img src={label} className="label"></img></div>
           <div className="col-4"><a href="/Signup"><img src={speaker} className="speaker"></img></a></div>
         </div>
       </div>
