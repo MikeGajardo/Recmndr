@@ -43,7 +43,7 @@ export const Navbar = () => {
                 >
                   <li>
                     <Link className="dropdown-item" to="/create-your-profile">
-                      Quiz
+                      Music Profile
                     </Link>
                     </li>
                     <li>
